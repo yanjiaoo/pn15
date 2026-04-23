@@ -1,0 +1,10 @@
+﻿[
+  {
+    "id": "pn15_001",
+    "title": "示例：PN15 话题标题",
+    "date": "2026-04-23",
+    "summary": "在此填写话题内容摘要。",
+    "source": "来源",
+    "links": [{"label": "参考链接", "url": "https://example.com"}]
+  }
+]
