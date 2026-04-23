@@ -1,10 +1,62 @@
-﻿[
+[
   {
-    "id": "pn15_001",
-    "title": "示例：PN15 话题标题",
-    "date": "2026-04-23",
-    "summary": "在此填写话题内容摘要。",
-    "source": "来源",
-    "links": [{"label": "参考链接", "url": "https://example.com"}]
+    "id": "pn15_overview",
+    "rank": 1,
+    "title": "PN15政策概述：国务院810号令与国税总局2025年第15号公告",
+    "category": "policy",
+    "date": "2025-10-01",
+    "summary": "2025年6月20日，中国国务院发布第810号令，要求互联网平台企业向中国税务机关季度报送平台商户的身份信息、交易数据、收入和费用数据。国家税务总局随后发布2025年第15号公告（PN15）明确执行细则。自2025年10月1日起生效，首次报送截止日为2025年10月31日。亚马逊已于2025年10月13日正式通知所有中国卖家。",
+    "details": ["适用范围：所有在中国境内注册的亚马逊卖家，无论在哪个站点销售", "报送频率：每季度一次", "报送内容：卖家身份信息、银行账户、交易笔数、销售收入、平台费用", "平台责任：不合规平台面临25%企业所得税处罚", "卖家影响：结束跨境电商税务灰色地带时代"],
+    "links": [{"label": "Morgan Lewis法律解读", "url": "https://www.morganlewis.com/pubs/2025/10/chinas-new-tax-reporting-rules-are-a-game-changer-for-overseas-internet-platforms"}, {"label": "Alvarez & Marsal政策分析", "url": "https://www.alvarezandmarsal.com/thought-leadership/china-introduces-new-reporting-obligations-for-online-platform-operators"}, {"label": "大数跨境报道", "url": "https://www.10100.com/article/30447380"}]
+  },
+  {
+    "id": "pn15_vat",
+    "rank": 2,
+    "title": "PN15对卖家增值税（VAT）的影响",
+    "category": "tax",
+    "date": "2025-10-01",
+    "summary": "PN15使税务机关能精准掌握卖家销售数据，直接影响增值税缴纳。此前大量跨境卖家未如实申报境外销售收入，PN15实施后税务机关可交叉比对平台报送数据与卖家自行申报数据。",
+    "details": ["小规模纳税人（年销售额<500万元）：季度≤30万元免征；>30万元按1%征收", "一般纳税人（年销售额>500万元）：按13%税率征收，可抵扣进项税额", "关键变化：税务机关现在能看到卖家在亚马逊全球所有站点的真实销售额", "风险提示：此前未申报的卖家可能面临补缴税款+滞纳金+罚款"],
+    "links": [{"label": "中国税务总局官网", "url": "https://www.chinatax.gov.cn/eng/c101270/c101274/index.html"}]
+  },
+  {
+    "id": "pn15_cit",
+    "rank": 3,
+    "title": "PN15对卖家企业所得税的影响",
+    "category": "tax",
+    "date": "2025-10-01",
+    "summary": "企业所得税方面，PN15使税务机关能准确计算卖家的跨境电商利润。此前许多卖家通过低报收入或虚增成本来降低应税利润，PN15实施后这些操作将被数据比对发现。",
+    "details": ["年利润≤300万元：按5%缴纳企业所得税", "年利润>300万元：按25%缴纳（部分高新技术企业可享15%）", "关键变化：平台报送的销售收入和费用数据将成为税务稽查的核心依据", "合规建议：卖家应确保国内申报数据与平台报送数据一致"],
+    "links": [{"label": "Chinesellers深度分析", "url": "https://chinesellers.substack.com/p/from-loopholes-to-compliance-how"}]
+  },
+  {
+    "id": "pn15_seller_reaction",
+    "rank": 4,
+    "title": "卖家反应：大量中国大陆卖家加速转移注册地至香港等地",
+    "category": "seller_voice",
+    "date": "2026-01-15",
+    "summary": "Marketplace Pulse数据显示，PN15实施后中国大陆注册的亚马逊卖家数量出现明显下降，大量卖家将注册主体转移至香港、新加坡等地以规避数据报送。首次强制报送截止日（2025年10月31日）正是卖家外迁加速的时间节点。",
+    "details": ["卖家外迁方向：香港（最主流）、新加坡、美国本土公司", "外迁原因：规避PN15数据报送、降低税务风险、保护商业隐私", "风险提示：税务机关可能追溯历史数据，单纯转移注册地不能完全规避风险", "行业影响：预计亚马逊商品价格将上涨20-30%以覆盖合规成本"],
+    "links": [{"label": "Marketplace Pulse分析", "url": "https://www.marketplacepulse.com/articles/chinese-sellers-are-abandoning-mainland-registration"}, {"label": "PPC Land报道", "url": "https://ppc.land/amazon-begins-quarterly-tax-reporting-to-chinese-authorities-for-cross-border-sellers/"}]
+  },
+  {
+    "id": "pn15_local_tax",
+    "rank": 5,
+    "title": "各地税务局执行动态：深圳、义乌等跨境电商重镇加强稽查",
+    "category": "enforcement",
+    "date": "2026-03-01",
+    "summary": "PN15实施后，深圳、义乌、广州等跨境电商集中地区的税务局已开始利用平台报送数据进行交叉比对稽查。部分卖家收到税务约谈通知，要求说明平台销售收入与纳税申报的差异。",
+    "details": ["深圳：跨境电商第一大城市，税务局已建立专项稽查组", "义乌：小商品出口重镇，重点关注小规模纳税人销售额是否超过免征门槛", "广州：关注服装、3C等品类卖家的增值税申报情况", "合规窗口期：目前多数地区仍以约谈和辅导为主，尚未大规模处罚"],
+    "links": [{"label": "China Briefing税务月报", "url": "https://www.china-briefing.com/news/china-monthly-tax-brief-december-2025/"}, {"label": "CI Process海关改革分析", "url": "https://www.ciprocess.com/chinese-customs-reform-2025-end-of-trading-company-model.htm"}]
+  },
+  {
+    "id": "pn15_compliance",
+    "rank": 6,
+    "title": "卖家合规建议：如何应对PN15数据报送",
+    "category": "guidance",
+    "date": "2026-04-01",
+    "summary": "面对PN15，卖家需要系统性地调整税务合规策略。核心原则是确保国内纳税申报数据与亚马逊平台报送给税务机关的数据保持一致。",
+    "details": ["1. 核实亚马逊后台的公司注册信息和银行账户信息是否准确", "2. 梳理所有站点的销售收入，确保与国内增值税申报一致", "3. 保留完整的进项发票用于增值税抵扣", "4. 评估是否需要从小规模纳税人升级为一般纳税人", "5. 咨询专业跨境电商税务顾问，制定合规方案", "6. 关注当地税务局的政策辅导和窗口期安排"],
+    "links": [{"label": "GoAura卖家指南", "url": "https://goaura.com/blog/what-amazon-s-new-china-tax-reporting-means-for-us-sellers"}, {"label": "Lovat合规指南", "url": "https://vatcompliance.co/guides/marketplaces/china-dac7/"}]
   }
 ]
