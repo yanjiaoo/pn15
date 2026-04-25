@@ -30,7 +30,7 @@
   // ========== Data Loading ==========
 
   function loadData() {
-    fetch('data.json?t=' + Date.now())
+    fetch('data.json?t=' + Date.now(), { cache: 'no-store' })
       .then(function (res) { return res.json(); })
       .then(function (data) {
         allData = data;
@@ -356,6 +356,129 @@
     return html;
   }
 
+  // ========== Excel Upload ==========
+
+  function handleExcelUpload() {
+    var fileInput = document.getElementById('excel-file');
+    var statusEl = document.getElementById('upload-status');
+    if (!fileInput || !fileInput.files[0]) {
+      if (statusEl) statusEl.textContent = '请先选择文件';
+      return;
+    }
+    var file = fileInput.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      try {
+        var data = e.target.result;
+        var rows = parseCSV(data);
+        if (rows.length < 2) {
+          statusEl.textContent = '文件为空或格式不正确';
+          return;
+        }
+        var headers = rows[0];
+        var newArticles = [];
+        for (var i = 1; i < rows.length; i++) {
+          var row = rows[i];
+          if (row.length < headers.length) continue;
+          var article = {};
+          for (var j = 0; j < headers.length; j++) {
+            article[headers[j].trim()] = (row[j] || '').trim();
+          }
+          if (article.title && article.url) {
+            newArticles.push(article);
+          }
+        }
+        // Merge with existing data
+        var existingUrls = new Set();
+        (allData.timeline || []).forEach(function(a) { existingUrls.add(a.url); });
+        (allData.feedback || []).forEach(function(a) { existingUrls.add(a.url); });
+
+        var addedNews = 0, addedFeedback = 0;
+        newArticles.forEach(function(a) {
+          if (existingUrls.has(a.url)) return;
+          existingUrls.add(a.url);
+          var section = a.section || 'news';
+          var entry = {
+            title: a.title,
+            url: a.url,
+            date: a.date || '',
+            source_name: a.source_name || '',
+            source_level: a.source_level || 'L3',
+            display_level: a.source_level === 'L1' ? 'full' : (a.source_level === 'L2' ? 'summary' : 'title_only'),
+            summary: a.summary || '',
+            warnings: [],
+            is_highlight: false
+          };
+          if (section === 'news' || section === 'both') {
+            allData.timeline.push(entry);
+            addedNews++;
+          }
+          if (section === 'feedback' || section === 'both') {
+            allData.feedback.push({
+              title: a.title,
+              url: a.url,
+              date: a.date || '',
+              source: a.source_name || '',
+              sentiment_label: a.sentiment_label || '😐观望',
+              matched_keywords: [],
+              summary: a.summary || ''
+            });
+            addedFeedback++;
+          }
+        });
+        // Re-sort
+        allData.timeline.sort(function(a,b) { return (b.date||'').localeCompare(a.date||''); });
+        allData.feedback.sort(function(a,b) { return (b.date||'').localeCompare(a.date||''); });
+        // Update stats
+        allData.stats.total_articles = allData.timeline.length;
+        allData.stats.feedback_count = allData.feedback.length;
+        // Re-render
+        renderStats(allData.stats);
+        renderNews();
+        renderFeedback();
+        statusEl.innerHTML = '✅ 成功导入 ' + addedNews + ' 条资讯 + ' + addedFeedback + ' 条反馈<br>⚠️ 请下载更新后的 data.json 并提交到 GitHub：<br><button onclick="downloadDataJson()" style="margin-top:8px;padding:4px 12px;background:#3949ab;color:#fff;border:none;border-radius:4px;cursor:pointer;">下载 data.json</button>';
+      } catch(err) {
+        statusEl.textContent = '解析失败: ' + err.message;
+      }
+    };
+    if (file.name.endsWith('.csv')) {
+      reader.readAsText(file, 'UTF-8');
+    } else {
+      statusEl.textContent = '目前仅支持 CSV 格式（UTF-8编码）。请将 Excel 另存为 CSV 后上传。';
+    }
+  }
+
+  function parseCSV(text) {
+    var lines = text.split(/\r?\n/);
+    return lines.map(function(line) {
+      var result = [];
+      var current = '';
+      var inQuotes = false;
+      for (var i = 0; i < line.length; i++) {
+        var ch = line[i];
+        if (ch === '"') { inQuotes = !inQuotes; }
+        else if (ch === ',' && !inQuotes) { result.push(current); current = ''; }
+        else { current += ch; }
+      }
+      result.push(current);
+      return result;
+    });
+  }
+
+  function downloadDataJson() {
+    if (!allData) return;
+    var blob = new Blob([JSON.stringify(allData, null, 2)], {type:'application/json'});
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'data.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  // Expose downloadDataJson globally for inline onclick
+  window.downloadDataJson = downloadDataJson;
+
   // ========== Event Binding ==========
 
   function initEvents() {
@@ -425,6 +548,31 @@
       refreshBtn.addEventListener('click', function () {
         loadData();
       });
+    }
+
+    // Upload button
+    var uploadBtn = document.getElementById('upload-btn');
+    var uploadModal = document.getElementById('upload-modal');
+    var uploadClose = document.getElementById('upload-close');
+    var uploadSubmit = document.getElementById('upload-submit');
+
+    if (uploadBtn) {
+      uploadBtn.addEventListener('click', function() {
+        uploadModal.style.display = 'flex';
+      });
+    }
+    if (uploadClose) {
+      uploadClose.addEventListener('click', function() {
+        uploadModal.style.display = 'none';
+      });
+    }
+    if (uploadModal) {
+      uploadModal.addEventListener('click', function(e) {
+        if (e.target === uploadModal) uploadModal.style.display = 'none';
+      });
+    }
+    if (uploadSubmit) {
+      uploadSubmit.addEventListener('click', handleExcelUpload);
     }
   }
 
