@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PN15 政策信息聚合器</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-content">
+      <h1>📋 PN15 政策信息聚合器</h1>
+      <p class="subtitle">国务院令第810号 &amp; 国家税务总局2025年第15号公告 — 政策信息与卖家反馈</p>
+      <div class="stats-cards">
+        <div class="stat-card">
+          <span class="stat-value" id="stat-total">--</span>
+          <span class="stat-label">总文章数</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value" id="stat-sources">--</span>
+          <span class="stat-label">信息源数</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value" id="stat-updated">--</span>
+          <span class="stat-label">最后更新</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="nav-bar">
+    <button class="nav-tab active" data-section="news">📰 最新资讯</button>
+    <button class="nav-tab" data-section="feedback">🗣️ 卖家反馈</button>
+    <button class="nav-tab" data-section="policy">📋 政策概览</button>
+    <button class="refresh-btn" id="refresh-btn" title="手动刷新">🔄</button>
+  </nav>
+
+  <!-- ===== Compact Timeline Bar (always visible) ===== -->
+  <div class="compact-timeline-bar" id="compact-timeline"></div>
+
+  <!-- ===== Section 1: 最新资讯 ===== -->
+  <section id="section-news" class="content-section">
+    <div class="section-toolbar">
+      <div class="filter-group">
+        <button class="filter-btn active" data-level="all">全部</button>
+        <button class="filter-btn" data-level="L1">L1 官方</button>
+        <button class="filter-btn" data-level="L2">L2 专业</button>
+        <button class="filter-btn" data-level="L3">L3 媒体</button>
+      </div>
+      <div class="filter-group">
+        <button class="time-btn active" data-time="all">全部时间</button>
+        <button class="time-btn" data-time="7d">近7天</button>
+        <button class="time-btn" data-time="30d">近30天</button>
+        <button class="time-btn" data-time="90d">近90天</button>
+      </div>
+      <div class="search-box">
+        <input type="text" id="news-search" placeholder="搜索标题、来源或内容...">
+      </div>
+    </div>
+    <div class="highlights-area" id="highlights-area"></div>
+    <div class="timeline-list" id="timeline-list">
+      <div class="loading">加载中...</div>
+    </div>
+  </section>
+
+  <!-- ===== Section 2: 卖家反馈 ===== -->
+  <section id="section-feedback" class="content-section" style="display:none;">
+    <div class="section-toolbar">
+      <div class="filter-group sentiment-filters">
+        <button class="sentiment-btn active" data-sentiment="all">全部</button>
+        <button class="sentiment-btn" data-sentiment="😰焦虑">😰焦虑</button>
+        <button class="sentiment-btn" data-sentiment="😡不满">😡不满</button>
+        <button class="sentiment-btn" data-sentiment="😐观望">😐观望</button>
+        <button class="sentiment-btn" data-sentiment="💡求助">💡求助</button>
+        <button class="sentiment-btn" data-sentiment="✅积极">✅积极</button>
+        <button class="sentiment-btn" data-sentiment="⚠️恐慌">⚠️恐慌</button>
+      </div>
+      <div class="filter-group">
+        <button class="fb-time-btn active" data-time="all">全部时间</button>
+        <button class="fb-time-btn" data-time="7d">近7天</button>
+        <button class="fb-time-btn" data-time="30d">近30天</button>
+        <button class="fb-time-btn" data-time="90d">近90天</button>
+      </div>
+    </div>
+    <div class="hot-topics-area" id="hot-topics-area"></div>
+    <div class="feedback-list" id="feedback-list">
+      <div class="loading">加载中...</div>
+    </div>
+  </section>
+
+  <!-- ===== Section 3: 政策概览 ===== -->
+  <section id="section-policy" class="content-section" style="display:none;">
+    <div id="policy-content">
+      <div class="loading">加载中...</div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p>&copy; 2025-2026 PN15 Policy Aggregator</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

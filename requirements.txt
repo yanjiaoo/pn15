@@ -1,0 +1,6 @@
+requests==2.32.3
+beautifulsoup4==4.13.4
+lxml==5.4.0
+pytest==8.3.5
+hypothesis==6.131.1
+pytest-cov==6.1.1

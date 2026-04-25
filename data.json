@@ -1,0 +1,189 @@
+{
+  "highlights": [
+    {
+      "title": "国家税务总局关于互联网平台企业涉税信息报送的公告（2025年第15号）",
+      "url": "http://www.chinatax.gov.cn/chinatax/n810341/n810825/c102025/c5256789/content.html",
+      "date": "2025-06-01",
+      "source_name": "国家税务总局",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "为规范互联网平台企业涉税信息报送，根据《中华人民共和国税收征收管理法》及国务院令第810号，制定本公告。互联网平台企业应按季度向税务机关报送平台内经营者的涉税信息。",
+      "warnings": [],
+      "is_highlight": true,
+      "matched_sources": ["国家税务总局", "海关总署", "财政部"]
+    },
+    {
+      "title": "国务院令第810号：互联网平台企业涉税信息报送规定正式实施",
+      "url": "http://www.gov.cn/zhengce/content/2025-06/01/content_810.htm",
+      "date": "2025-06-01",
+      "source_name": "中国政府网",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "国务院令第810号正式发布，要求互联网平台企业按季度向税务机关报送平台内经营者的身份信息、收入信息等涉税数据，自2025年10月31日起首次申报。",
+      "warnings": [],
+      "is_highlight": true,
+      "matched_sources": ["中国政府网", "国家税务总局"]
+    }
+  ],
+  "timeline": [
+    {
+      "title": "国家税务总局关于互联网平台企业涉税信息报送的公告（2025年第15号）",
+      "url": "http://www.chinatax.gov.cn/chinatax/n810341/n810825/c102025/c5256789/content.html",
+      "date": "2025-06-01",
+      "source_name": "国家税务总局",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "为规范互联网平台企业涉税信息报送，根据《中华人民共和国税收征收管理法》及国务院令第810号，制定本公告。",
+      "warnings": [],
+      "is_highlight": true
+    },
+    {
+      "title": "深圳市跨境电商无票免税政策2月1日起正式实施",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/content/post_2026020101.html",
+      "date": "2026-02-01",
+      "source_name": "深圳市商务局",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "深圳市率先明确发文，跨境电商综试区内注册企业可享受无票免税政策，适用9610零售出口模式。",
+      "warnings": [],
+      "is_highlight": false
+    },
+    {
+      "title": "普华永道解读：810号令对跨境电商卖家的影响与合规建议",
+      "url": "https://www.pwccn.com/zh/services/tax/810-decree-cbec.html",
+      "date": "2025-07-15",
+      "source_name": "普华永道中国",
+      "source_level": "L2",
+      "display_level": "summary",
+      "summary": "普华永道税务团队深度解读国务院令第810号对跨境电商行业的影响，建议卖家尽早梳理税务合规架构。",
+      "warnings": [],
+      "is_highlight": false
+    },
+    {
+      "title": "亚马逊卖家中心：关于中国卖家涉税信息报送的重要通知",
+      "url": "https://sellercentral.amazon.com/help/hub/reference/G202501150001",
+      "date": "2025-12-23",
+      "source_name": "Amazon卖家中心",
+      "source_level": "L2",
+      "display_level": "summary",
+      "summary": "亚马逊向中国卖家发送Q3涉税信息报送通知邮件，提醒卖家关注税务合规要求。",
+      "warnings": [],
+      "is_highlight": false
+    },
+    {
+      "title": "跨境电商出口退税新规发布，五种出口模式税务处理全解析",
+      "url": "https://www.cifnews.com/article/202601300001",
+      "date": "2026-01-30",
+      "source_name": "雨果跨境",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "详细解析9810、9710、9610、1039、0110五种出口模式下的增值税和企业所得税处理方式差异。",
+      "warnings": [],
+      "is_highlight": false
+    },
+    {
+      "title": "Q4涉税信息报送通知：平台已开始向税务机关提交卖家数据",
+      "url": "https://www.ebrun.com/20260326/q4-tax-reporting.html",
+      "date": "2026-03-26",
+      "source_name": "亿邦动力",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "多家跨境电商平台已于近日向税务机关提交2025年Q4卖家涉税信息数据。",
+      "warnings": ["⚠️ 与官方原文存在差异"],
+      "is_highlight": false
+    }
+  ],
+  "feedback": [
+    {
+      "title": "810号令来了，跨境卖家该怎么办？合规成本到底有多高？",
+      "source": "Regan跨境",
+      "url": "https://mp.weixin.qq.com/s/example001",
+      "date": "2025-07-10",
+      "sentiment_label": "😰焦虑",
+      "matched_keywords": ["卖家810号令", "报税焦虑", "合规成本"],
+      "summary": "文章分析了810号令对跨境卖家的影响，许多中小卖家对合规成本表示担忧。"
+    },
+    {
+      "title": "平台报送卖家数据，这波操作让人不满！",
+      "source": "小北的梦呓",
+      "url": "https://mp.weixin.qq.com/s/example002",
+      "date": "2025-08-05",
+      "sentiment_label": "😡不满",
+      "matched_keywords": ["亚马逊报送卖家数据", "卖家PN15"],
+      "summary": "卖家群体对平台主动向税务机关报送数据的做法表示强烈不满，认为缺乏充分沟通。"
+    },
+    {
+      "title": "观望中：810号令实施后，先看看大卖家怎么应对",
+      "source": "侃侃跨境那些事儿",
+      "url": "https://mp.weixin.qq.com/s/example003",
+      "date": "2025-09-20",
+      "sentiment_label": "😐观望",
+      "matched_keywords": ["卖家810号令", "报税怎么办"],
+      "summary": "部分卖家选择观望态度，等待行业头部卖家的合规方案出台后再做决定。"
+    },
+    {
+      "title": "合规是机会！提前布局税务架构的卖家将获得竞争优势",
+      "source": "跨境卖家集中营",
+      "url": "https://mp.weixin.qq.com/s/example004",
+      "date": "2025-11-15",
+      "sentiment_label": "✅积极",
+      "matched_keywords": ["税务合规", "卖家PN15", "合规成本"],
+      "summary": "文章从积极角度分析，认为提前合规的卖家将在行业洗牌中获得竞争优势。"
+    }
+  ],
+  "policy_timeline": [
+    {
+      "date": "2025-06",
+      "title": "810号令 + PN15 发布",
+      "description": "国务院令第810号及国家税务总局2025年第15号公告正式发布",
+      "type": "milestone"
+    },
+    {
+      "date": "2025-10-31",
+      "title": "首次 Q3 申报截止",
+      "description": "互联网平台企业首次按季度报送涉税信息的截止日期",
+      "type": "deadline"
+    },
+    {
+      "date": "2025-12-23",
+      "title": "Q3 邮件通知",
+      "description": "平台向卖家发送 Q3 涉税信息报送通知邮件",
+      "type": "notification"
+    },
+    {
+      "date": "2026-01-30",
+      "title": "退税新规第5号发布",
+      "description": "跨境电商出口退税新规发布",
+      "type": "milestone"
+    },
+    {
+      "date": "2026-02-01",
+      "title": "深圳无票免税实施",
+      "description": "深圳市跨境电商无票免税政策正式实施",
+      "type": "milestone"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Q4 邮件通知",
+      "description": "平台向卖家发送 Q4 涉税信息报送通知邮件",
+      "type": "notification"
+    }
+  ],
+  "stats": {
+    "total_articles": 180,
+    "l1_count": 50,
+    "l2_count": 70,
+    "l3_count": 60,
+    "feedback_count": 25,
+    "last_updated": "2025-07-15T08:00:00Z",
+    "highlights_count": 2,
+    "sentiment_distribution": {
+      "😰焦虑": 8,
+      "😡不满": 5,
+      "😐观望": 6,
+      "💡求助": 3,
+      "✅积极": 2,
+      "⚠️恐慌": 1
+    }
+  }
+}
