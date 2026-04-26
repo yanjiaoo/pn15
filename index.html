@@ -121,28 +121,52 @@
   <div id="upload-modal" class="upload-modal" style="display:none;">
     <div class="upload-modal-content">
       <div class="upload-modal-header">
-        <h3>📤 手动上传文章</h3>
+        <h3>📤 快速添加文章</h3>
         <span class="upload-close" id="upload-close">&times;</span>
       </div>
       <div class="upload-modal-body">
-        <p>上传 Excel 文件（.xlsx）更新文章数据。文件格式要求：</p>
-        <table class="upload-format-table">
-          <tr><th>列名</th><th>说明</th><th>必填</th></tr>
-          <tr><td>title</td><td>文章标题</td><td>是</td></tr>
-          <tr><td>url</td><td>原文链接</td><td>是</td></tr>
-          <tr><td>date</td><td>日期 (YYYY-MM-DD)</td><td>是</td></tr>
-          <tr><td>source_name</td><td>来源名称</td><td>是</td></tr>
-          <tr><td>source_level</td><td>L1/L2/L3</td><td>是</td></tr>
-          <tr><td>summary</td><td>摘要</td><td>否</td></tr>
-          <tr><td>sentiment_label</td><td>情绪标签（卖家反馈用）</td><td>否</td></tr>
-          <tr><td>section</td><td>news/feedback/both</td><td>是</td></tr>
-        </table>
-        <div class="upload-area">
-          <input type="file" id="excel-file" accept=".xlsx,.xls,.csv" />
-          <button class="upload-submit-btn" id="upload-submit">上传并合并</button>
+        <p style="margin-bottom:12px;">只需输入 <strong>文章URL</strong>，系统会自动识别来源、层级等信息。</p>
+        
+        <div style="margin-bottom:12px;">
+          <label style="display:block;margin-bottom:4px;font-weight:600;font-size:13px;">文章URL <span style="color:#c62828;">*</span></label>
+          <input type="url" id="manual-url" placeholder="https://www.cifnews.com/article/176203" style="width:100%;padding:8px 10px;border:1px solid #d0d7de;border-radius:6px;font-size:13px;" />
         </div>
-        <div id="upload-status"></div>
-        <p class="upload-note">注意：上传的文章将与现有数据合并（不会覆盖），按URL去重。上传后需手动将更新后的 data.json 提交到 GitHub。</p>
+        
+        <div style="margin-bottom:12px;">
+          <label style="display:block;margin-bottom:4px;font-weight:600;font-size:13px;">归类到板块（可选）</label>
+          <select id="manual-section" style="width:100%;padding:8px 10px;border:1px solid #d0d7de;border-radius:6px;font-size:13px;">
+            <option value="auto">🤖 自动判断（推荐）</option>
+            <option value="news">📰 仅最新资讯</option>
+            <option value="feedback">🗣️ 仅卖家反馈</option>
+            <option value="both">📰🗣️ 同时加入两个板块</option>
+          </select>
+        </div>
+        
+        <div style="margin-bottom:16px;">
+          <label style="display:block;margin-bottom:4px;font-weight:600;font-size:13px;">情绪标签（可选，用于卖家反馈）</label>
+          <select id="manual-sentiment" style="width:100%;padding:8px 10px;border:1px solid #d0d7de;border-radius:6px;font-size:13px;">
+            <option value="">🤖 自动判断</option>
+            <option value="😰焦虑">😰 焦虑</option>
+            <option value="😡不满">😡 不满</option>
+            <option value="😐观望">😐 观望</option>
+            <option value="💡求助">💡 求助</option>
+            <option value="✅积极">✅ 积极</option>
+            <option value="⚠️恐慌">⚠️ 恐慌</option>
+          </select>
+        </div>
+        
+        <button class="upload-submit-btn" id="upload-submit" style="width:100%;padding:10px;font-size:14px;">➕ 添加文章</button>
+        
+        <div id="upload-status" style="margin-top:12px;"></div>
+        
+        <div style="margin-top:16px;padding:10px;background:#f0f4f8;border-radius:6px;font-size:12px;color:#555;">
+          <strong>💡 说明：</strong>
+          <ul style="margin:6px 0 0 16px;padding:0;line-height:1.6;">
+            <li>添加后可预览效果</li>
+            <li>需手动下载 data.json 并上传到 GitHub 保存</li>
+            <li>论坛/社区类链接（知无不言、AMZ123等）会自动进入卖家反馈</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

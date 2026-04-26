@@ -75,10 +75,12 @@
     var html = '<div class="ct-track">';
     milestones.forEach(function (m, i) {
       var typeClass = 'ct-type-' + (m.type || 'milestone');
-      html += '<div class="ct-item ' + typeClass + '">';
+      var tooltip = escapeHtml(m.description || m.title || '');
+      html += '<div class="ct-item ' + typeClass + '" title="' + tooltip + '">';
       html += '<span class="ct-date">' + (m.date || '') + '</span>';
       html += '<span class="ct-dot"></span>';
       html += '<span class="ct-title">' + (m.title || '') + '</span>';
+      html += '<span class="ct-desc">' + escapeHtml((m.description || '').substring(0, 60)) + (m.description && m.description.length > 60 ? '...' : '') + '</span>';
       html += '</div>';
       if (i < milestones.length - 1) {
         html += '<div class="ct-connector">\u2192</div>';
@@ -358,94 +360,213 @@
 
   // ========== Excel Upload ==========
 
+  // Smart URL-based article submission (only URL required)
   function handleExcelUpload() {
-    var fileInput = document.getElementById('excel-file');
+    var urlInput = document.getElementById('manual-url');
+    var sectionSelect = document.getElementById('manual-section');
+    var sentimentSelect = document.getElementById('manual-sentiment');
     var statusEl = document.getElementById('upload-status');
-    if (!fileInput || !fileInput.files[0]) {
-      if (statusEl) statusEl.textContent = '请先选择文件';
+    
+    if (!urlInput || !urlInput.value.trim()) {
+      if (statusEl) statusEl.innerHTML = '<span style="color:#c62828;">请输入文章URL</span>';
       return;
     }
-    var file = fileInput.files[0];
-    var reader = new FileReader();
-    reader.onload = function(e) {
-      try {
-        var data = e.target.result;
-        var rows = parseCSV(data);
-        if (rows.length < 2) {
-          statusEl.textContent = '文件为空或格式不正确';
-          return;
-        }
-        var headers = rows[0];
-        var newArticles = [];
-        for (var i = 1; i < rows.length; i++) {
-          var row = rows[i];
-          if (row.length < headers.length) continue;
-          var article = {};
-          for (var j = 0; j < headers.length; j++) {
-            article[headers[j].trim()] = (row[j] || '').trim();
-          }
-          if (article.title && article.url) {
-            newArticles.push(article);
-          }
-        }
-        // Merge with existing data
-        var existingUrls = new Set();
-        (allData.timeline || []).forEach(function(a) { existingUrls.add(a.url); });
-        (allData.feedback || []).forEach(function(a) { existingUrls.add(a.url); });
-
-        var addedNews = 0, addedFeedback = 0;
-        newArticles.forEach(function(a) {
-          if (existingUrls.has(a.url)) return;
-          existingUrls.add(a.url);
-          var section = a.section || 'news';
-          var entry = {
-            title: a.title,
-            url: a.url,
-            date: a.date || '',
-            source_name: a.source_name || '',
-            source_level: a.source_level || 'L3',
-            display_level: a.source_level === 'L1' ? 'full' : (a.source_level === 'L2' ? 'summary' : 'title_only'),
-            summary: a.summary || '',
-            warnings: [],
-            is_highlight: false
-          };
-          if (section === 'news' || section === 'both') {
-            allData.timeline.push(entry);
-            addedNews++;
-          }
-          if (section === 'feedback' || section === 'both') {
-            allData.feedback.push({
-              title: a.title,
-              url: a.url,
-              date: a.date || '',
-              source: a.source_name || '',
-              sentiment_label: a.sentiment_label || '😐观望',
-              matched_keywords: [],
-              summary: a.summary || ''
-            });
-            addedFeedback++;
-          }
-        });
-        // Re-sort
-        allData.timeline.sort(function(a,b) { return (b.date||'').localeCompare(a.date||''); });
-        allData.feedback.sort(function(a,b) { return (b.date||'').localeCompare(a.date||''); });
-        // Update stats
-        allData.stats.total_articles = allData.timeline.length;
-        allData.stats.feedback_count = allData.feedback.length;
-        // Re-render
-        renderStats(allData.stats);
-        renderNews();
-        renderFeedback();
-        statusEl.innerHTML = '✅ 成功导入 ' + addedNews + ' 条资讯 + ' + addedFeedback + ' 条反馈<br>⚠️ 请下载更新后的 data.json 并提交到 GitHub：<br><button onclick="downloadDataJson()" style="margin-top:8px;padding:4px 12px;background:#3949ab;color:#fff;border:none;border-radius:4px;cursor:pointer;">下载 data.json</button>';
-      } catch(err) {
-        statusEl.textContent = '解析失败: ' + err.message;
-      }
-    };
-    if (file.name.endsWith('.csv')) {
-      reader.readAsText(file, 'UTF-8');
-    } else {
-      statusEl.textContent = '目前仅支持 CSV 格式（UTF-8编码）。请将 Excel 另存为 CSV 后上传。';
+    
+    var url = urlInput.value.trim();
+    
+    // Validate URL
+    if (!/^https?:\/\//.test(url)) {
+      if (statusEl) statusEl.innerHTML = '<span style="color:#c62828;">URL必须以http://或https://开头</span>';
+      return;
     }
+    
+    // Check duplicate
+    var existingUrls = new Set();
+    (allData.timeline || []).forEach(function(a) { existingUrls.add(a.url); });
+    (allData.feedback || []).forEach(function(a) { existingUrls.add(a.url); });
+    if (existingUrls.has(url)) {
+      if (statusEl) statusEl.innerHTML = '<span style="color:#fb8c00;">该URL已存在于数据库中</span>';
+      return;
+    }
+    
+    // Auto-detect fields from URL
+    var detected = detectFromUrl(url);
+    var section = (sectionSelect && sectionSelect.value) || detected.section;
+    var sentiment = (sentimentSelect && sentimentSelect.value) || detected.sentiment;
+    var today = new Date().toISOString().slice(0, 10);
+    
+    // Build article entry
+    var entry = {
+      title: detected.title,
+      url: url,
+      date: today,
+      source_name: detected.source_name,
+      source_level: detected.source_level,
+      display_level: detected.source_level === 'L1' ? 'full' : (detected.source_level === 'L2' ? 'summary' : 'title_only'),
+      summary: detected.summary,
+      warnings: detected.warnings,
+      is_highlight: false
+    };
+    
+    var addedNews = 0, addedFeedback = 0;
+    
+    if (section === 'news' || section === 'both' || section === 'auto') {
+      if (!allData.timeline) allData.timeline = [];
+      allData.timeline.push(entry);
+      addedNews++;
+    }
+    
+    if (section === 'feedback' || section === 'both' || (section === 'auto' && detected.hasSellerFeedback)) {
+      if (!allData.feedback) allData.feedback = [];
+      allData.feedback.push({
+        title: detected.title,
+        url: url,
+        date: today,
+        source: detected.source_name,
+        sentiment_label: sentiment || '\uD83D\uDE10观望',
+        matched_keywords: detected.keywords,
+        summary: detected.summary
+      });
+      addedFeedback++;
+    }
+    
+    // Re-sort
+    if (allData.timeline) allData.timeline.sort(function(a,b) { return (b.date||'').localeCompare(a.date||''); });
+    if (allData.feedback) allData.feedback.sort(function(a,b) { return (b.date||'').localeCompare(a.date||''); });
+    
+    // Update stats
+    if (allData.stats) {
+      allData.stats.total_articles = (allData.timeline || []).length;
+      allData.stats.feedback_count = (allData.feedback || []).length;
+    }
+    
+    // Re-render
+    renderStats(allData.stats);
+    renderNews();
+    renderFeedback();
+    
+    var info = '<div style="padding:10px;background:#e8f5e9;border-radius:6px;margin-top:8px;">';
+    info += '<strong>\u2705 成功添加文章</strong><br>';
+    info += '<small>标题: ' + escapeHtml(detected.title) + '<br>';
+    info += '来源: ' + escapeHtml(detected.source_name) + ' (' + detected.source_level + ')<br>';
+    info += '板块: ' + (addedNews > 0 ? '最新资讯' : '') + (addedFeedback > 0 ? (addedNews > 0 ? ' + 卖家反馈' : '卖家反馈') : '') + '</small>';
+    info += '<br><br><button onclick="downloadDataJson()" style="padding:6px 14px;background:#3949ab;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;">📥 下载 data.json</button>';
+    info += '<p style="font-size:11px;color:#666;margin-top:8px;">下载后请将新的 data.json 上传到 GitHub 替换旧文件</p>';
+    info += '</div>';
+    statusEl.innerHTML = info;
+    
+    // Clear input
+    urlInput.value = '';
+  }
+
+  // Auto-detect article metadata from URL
+  function detectFromUrl(url) {
+    var result = {
+      title: url,
+      source_name: '未知来源',
+      source_level: 'L3',
+      summary: '',
+      warnings: [],
+      section: 'news',
+      sentiment: '',
+      hasSellerFeedback: false,
+      keywords: []
+    };
+    
+    try {
+      var u = new URL(url);
+      var host = u.hostname.toLowerCase().replace(/^www\./, '');
+      
+      // Map hostnames to source names and levels
+      var sourceMap = {
+        'gov.cn': { name: '中国政府网', level: 'L1' },
+        'chinatax.gov.cn': { name: '国家税务总局', level: 'L1' },
+        'fgk.chinatax.gov.cn': { name: '国家税务总局法规库', level: 'L1' },
+        'commerce.sz.gov.cn': { name: '深圳市商务局', level: 'L1' },
+        'sz.gov.cn': { name: '深圳市政府', level: 'L1' },
+        'mofcom.gov.cn': { name: '商务部', level: 'L1' },
+        'customs.gov.cn': { name: '海关总署', level: 'L1' },
+        'cifnews.com': { name: '雨果跨境', level: 'L3' },
+        'ebrun.com': { name: '亿邦动力', level: 'L3' },
+        'amz123.com': { name: 'AMZ123', level: 'L3' },
+        '10100.com': { name: '大数跨境', level: 'L3' },
+        'mjzj.com': { name: '卖家之家', level: 'L3' },
+        'egainnews.com': { name: '跨境电商笔记', level: 'L3' },
+        'wearesellers.com': { name: '知无不言', level: 'L3' },
+        'baijing.cn': { name: '白鲸出海', level: 'L3' },
+        'ikjds.com': { name: 'ikjds', level: 'L3' },
+        'dianshangwin.com': { name: '电商赢', level: 'L3' },
+        'xinhuanet.com': { name: '新华网', level: 'L3' },
+        'people.com.cn': { name: '人民网', level: 'L3' },
+        'yicai.com': { name: '第一财经', level: 'L3' },
+        'caixin.com': { name: '财新网', level: 'L3' },
+        '21jingji.com': { name: '21世纪经济报道', level: 'L3' },
+        'pwccn.com': { name: '普华永道中国', level: 'L2' },
+        'deloitte.com': { name: '德勤中国', level: 'L2' },
+        'kpmg.com': { name: '毕马威中国', level: 'L2' },
+        'ey.com': { name: '安永中国', level: 'L2' },
+        'kwm.com': { name: '金杜律师事务所', level: 'L2' },
+        'zhonglun.com': { name: '中伦律师事务所', level: 'L2' },
+        'junhe.com': { name: '君合律师事务所', level: 'L2' },
+        'hankunlaw.com': { name: '汉坤律师事务所', level: 'L2' },
+        'huashui.com': { name: '华税律师事务所', level: 'L2' },
+        'lxtax.com': { name: '立信税务师事务所', level: 'L2' },
+        'sellercentral.amazon.com': { name: 'Amazon Seller Central', level: 'L2' },
+        'szceb.cn': { name: '深圳跨境电商综试区', level: 'L2' },
+        'mp.weixin.qq.com': { name: '微信公众号', level: 'L3' }
+      };
+      
+      // Match hostname
+      for (var key in sourceMap) {
+        if (host === key || host.endsWith('.' + key)) {
+          result.source_name = sourceMap[key].name;
+          result.source_level = sourceMap[key].level;
+          break;
+        }
+      }
+      
+      // Provincial tax bureaus pattern
+      if (result.source_name === '未知来源' && host.match(/^[a-z]+\.chinatax\.gov\.cn$/)) {
+        var provMap = {'beijing':'北京','shanghai':'上海','guangdong':'广东','zhejiang':'浙江','jiangsu':'江苏','shandong':'山东','sichuan':'四川','hubei':'湖北','fujian':'福建','hunan':'湖南','henan':'河南','hebei':'河北','anhui':'安徽','liaoning':'辽宁','heilongjiang':'黑龙江','jilin':'吉林','shanxi':'山西','shaanxi':'陕西','gansu':'甘肃','qinghai':'青海','guizhou':'贵州','yunnan':'云南','guangxi':'广西','neimenggu':'内蒙古','xinjiang':'新疆','xizang':'西藏','ningxia':'宁夏','hainan':'海南','chongqing':'重庆','tianjin':'天津','jiangxi':'江西'};
+        var prov = host.split('.')[0];
+        result.source_name = (provMap[prov] || prov) + '省税务局';
+        result.source_level = 'L1';
+      }
+      
+      // Build a readable title from URL path
+      var pathParts = u.pathname.split('/').filter(function(p) { return p; });
+      var lastPart = pathParts[pathParts.length - 1] || '';
+      var articleId = lastPart.replace(/\.(html|htm|shtml|aspx|php)$/, '');
+      
+      // Set placeholder title (user should edit after adding)
+      result.title = result.source_name + ' - 文章 ' + articleId;
+      result.summary = '从 ' + result.source_name + ' 导入的文章。请访问原文查看详情：' + url;
+      
+      // Detect if non-whitelist
+      var whitelist = ['gov.cn','chinatax.gov.cn','commerce.sz.gov.cn','sz.gov.cn','mofcom.gov.cn','customs.gov.cn','cifnews.com','ebrun.com','amz123.com','10100.com','mjzj.com','egainnews.com','wearesellers.com','baijing.cn','ikjds.com','dianshangwin.com','xinhuanet.com','people.com.cn','yicai.com','caixin.com','21jingji.com','pwccn.com','deloitte.com','kpmg.com','ey.com','kwm.com','zhonglun.com','junhe.com','hankunlaw.com','huashui.com','lxtax.com','amazon.com','szceb.cn','weixin.qq.com','weixin.sogou.com'];
+      var inWhitelist = false;
+      for (var i = 0; i < whitelist.length; i++) {
+        if (host === whitelist[i] || host.endsWith('.' + whitelist[i])) { inWhitelist = true; break; }
+      }
+      if (!inWhitelist) {
+        result.warnings = ['\u26A0\uFE0F 来源不在白名单，请核实信息真实性'];
+      }
+      
+      // Detect if this URL is from a seller feedback source (community/forum)
+      var feedbackSources = ['wearesellers.com', 'amz123.com', '10100.com', 'baijing.cn', 'mp.weixin.qq.com'];
+      for (var j = 0; j < feedbackSources.length; j++) {
+        if (host === feedbackSources[j] || host.endsWith('.' + feedbackSources[j])) {
+          result.hasSellerFeedback = true;
+          result.section = 'both';
+          result.sentiment = '\uD83D\uDE30\u7126\u8651'; // Default to anxious
+          break;
+        }
+      }
+    } catch (e) {
+      console.error('URL parse error:', e);
+    }
+    
+    return result;
   }
 
   function parseCSV(text) {
