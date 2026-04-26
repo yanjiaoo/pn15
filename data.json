@@ -1,1047 +1,1025 @@
 {
-    "highlights":  [
-                       {
-                           "title":  "互联网平台企业涉税信息报送规定（国务院令第810号）",
-                           "url":  "https://www.gov.cn/gongbao/2025/issue_12146/202507/content_7030983.html",
-                           "source_name":  "中国政府网",
-                           "date":  "2025-06-20",
-                           "source_level":  "L1",
-                           "is_highlight":  true,
-                           "summary":  "国务院令第810号正式发布，要求互联网平台企业按季度向税务机关报送平台内经营者的身份信息、收入信息等涉税数据。违规企业处2万至50万元罚款，情节严重的责令停业整顿。"
-                       },
-                       {
-                           "title":  "国家税务总局关于发布《出口业务增值税和消费税退（免）税管理办法》的公告（2026年第5号）",
-                           "url":  "https://www.gov.cn/zhengce/zhengceku/202602/content_7056762.htm",
-                           "source_name":  "中国政府网",
-                           "date":  "2026-01-30",
-                           "source_level":  "L1",
-                           "is_highlight":  true,
-                           "summary":  "国家税务总局发布出口退税管理新规，明确出口货物在报关出口之日起36个月内未申报办理出口退（免）税的，将视同向境内销售货物，按规定缴纳增值税。"
-                       },
-                       {
-                           "title":  "深圳市商务局关于跨境电商线上综合服务平台《无票免税》登记模块优化上线的通知",
-                           "url":  "https://commerce.sz.gov.cn/xxgk/qt/tzgg_1/content/post_12626220.html",
-                           "source_name":  "深圳市商务局",
-                           "date":  "2026-01-31",
-                           "source_level":  "L1",
-                           "is_highlight":  true,
-                           "summary":  "深圳市跨境电商线上综合服务平台《无票免税》登记模块于2026年2月1日正式上线运行，企业可通过综服平台办理全流程电子化操作。全国范围内唯一对无票免税政策有明确发文的地区，仅针对深圳注册主体的9610出口模式卖家。"
-                       },
-                       {
-                           "title":  "亚马逊推送报税明细惹众怒！卖家集体控诉",
-                           "url":  "https://www.cifnews.com/article/182335",
-                           "source_name":  "雨果跨境",
-                           "date":  "2026-03-28",
-                           "source_level":  "L3",
-                           "is_highlight":  true,
-                           "summary":  "亚马逊推送报税明细邮件引发卖家群体不满和集体控诉。"
-                       },
-                       {
-                           "title":  "严重了！大批卖家要补税到倒闭",
-                           "url":  "https://www.10100.com/article/128859118",
-                           "source_name":  "大数跨境",
-                           "date":  "2026-04-02",
-                           "source_level":  "L3",
-                           "is_highlight":  true,
-                           "summary":  "义乌深圳卖家陆续收到税务部门预警通知，Q3Q4增值税申报收入与平台数据差异显著，大批卖家面临补税压力。"
-                       }
-                   ],
-    "timeline":  [
-                     {
-                         "date":  "2026-04-25",
-                         "source_name":  "AMZ123",
-                         "title":  "注意！第四轮税务核查来袭！",
-                         "url":  "https://www.amz123.com/t/57GGlioL",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "税务部门第四轮针对亚马逊卖家的数据一致性核查通知下发，核查范围更广、力度更大。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-20",
-                         "source_name":  "AMZ123",
-                         "title":  "全球合规新纪元：从中国15号文看跨境电商数据全透明时代",
-                         "url":  "https://www.amz123.com/t/c5XFMmHt",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "深度复盘中国15号文报送内容，全球税务监管全方位对齐。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-15",
-                         "source_name":  "卖家之家",
-                         "title":  "汇算清缴倒计时：核定征收VS查账征收，选错多交几十万",
-                         "url":  "https://mjzj.com/article/fjt751426u4g",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "跨境电商企业所得税汇算清缴选型分析，核定征收与查账征收利弊对比。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-15",
-                         "source_name":  "AMZ123",
-                         "title":  "重磅！税务局严查亚马逊税务数据！部分卖家被税务约谈",
-                         "url":  "https://www.amz123.com/t/cvUmFdAc",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "税务局第四道催命符下达，死死盯住Q3Q4增值税销售收入申报数据。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-10",
-                         "source_name":  "AMZ123",
-                         "title":  "亚马逊香港、美国报送税务数据详解",
-                         "url":  "https://www.amz123.com/t/qvdb7Ub3",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "详解亚马逊香港主体、美国主体店铺税务数据报送情况，澄清卖家误解。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-10",
-                         "source_name":  "卖家之家",
-                         "title":  "跨境电商所得税有的1%有的25%，弄明白了小企业一年能省几十万",
-                         "url":  "https://mjzj.com/article/fk0a90r8j11c",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "跨境电商企业所得税核定征收政策解读，4%核定税率实际税负仅1%。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-08",
-                         "source_name":  "浙江省税务局",
-                         "title":  "浙江省税务局：增值税法实施相关政策解读",
-                         "url":  "https://zhejiang.chinatax.gov.cn/art/2026/4/8/art_26352_652869.html",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "浙江省税务局发布增值税法实施相关政策解读，明确跨境电商出口业务增值税处理方式。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-08",
-                         "source_name":  "浙江省税务局",
-                         "title":  "浙江省税务局：增值税法配套政策问答",
-                         "url":  "https://zhejiang.chinatax.gov.cn/art/2026/4/8/art_26352_652868.html",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "浙江省税务局发布增值税法配套政策问答，解答纳税人关心的增值税法实施细节。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-08",
-                         "source_name":  "雨果跨境",
-                         "title":  "2026香港报税倒计时：错过这三个日期可能面临巨额罚款",
-                         "url":  "https://www.cifnews.com/article/185024",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "跨境电商香港公司全年税务合规马拉松解读，2026年三大合规红线提示。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-05",
-                         "source_name":  "AMZ123",
-                         "title":  "跨境电商涉税合规新政执行口径详解",
-                         "url":  "https://www.amz123.com/t/tNpo1gmq",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "跨境电商涉税口径深度汇总，四大维度解读PN15落地细则。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-05",
-                         "source_name":  "白鲸出海",
-                         "title":  "卖家后台数据与亚马逊报送给税局的为什么不一样？",
-                         "url":  "https://www.baijing.cn/article/54962",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "亚马逊官方《关于2025年第三季度中国卖家税务信息报送的常见问题说明》解读。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-02",
-                         "source_name":  "大数跨境",
-                         "title":  "严重了！大批卖家要补税到倒闭",
-                         "url":  "https://www.10100.com/article/128859118",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "义乌深圳卖家陆续收到税务部门预警通知，Q3Q4增值税申报收入与平台数据差异显著，大批卖家面临补税压力。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-02",
-                         "source_name":  "雨果跨境",
-                         "title":  "跨境人注意了：第四季报税正倒计时！看看平台给我们挖了哪些坑",
-                         "url":  "https://www.cifnews.com/article/182951",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "分析亚马逊Q3/Q4税务数据与卖家后台数据差异，卖家集体迷茫。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-02",
-                         "source_name":  "AMZ123",
-                         "title":  "2.28亿收入只报2000元！卖家偷税被移送公安",
-                         "url":  "https://www.amz123.com/t/3JjChNfa",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "厦门跨境公司出口2.28亿元仅申报2000元，被追缴1078万元并移送公安。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-04-01",
-                         "source_name":  "知无不言",
-                         "title":  "跨境税务风向变了：核定征收即将落地",
-                         "url":  "https://www.wearesellers.com/question/118813",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "深圳龙华区率先启动跨境卖家摸排，核定征收窗口期即将来临。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-28",
-                         "source_name":  "AMZ123",
-                         "title":  "一批卖家被约谈！税局发出第四轮提醒",
-                         "url":  "https://www.amz123.com/t/2CZPYzVY",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "义乌深圳大批卖家收到税务预警通知，部分已被税务部门约谈。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-28",
-                         "source_name":  "雨果跨境",
-                         "title":  "亚马逊推送报税明细惹众怒！卖家集体控诉",
-                         "url":  "https://www.cifnews.com/article/182335",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "亚马逊推送报税明细邮件引发卖家群体不满和集体控诉。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-20",
-                         "source_name":  "AMZ123",
-                         "title":  "2%核定、无票抵扣、赛维模式，这三大难题同时有了答案",
-                         "url":  "https://www.amz123.com/t/Xf7k8ame",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "跨境财税三大难题迎来政策口径：核定征收、海外凭证抵扣、赛维模式认可。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-15",
-                         "source_name":  "大数跨境",
-                         "title":  "亚马逊Q4数据已报送！收到短信别慌，卖家现在最该做的5件事",
-                         "url":  "https://www.10100.com/article/126346496",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "亚马逊向税务机关报送2025年Q4数据，给出卖家五步应对指南。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-15",
-                         "source_name":  "AMZ123",
-                         "title":  "定了！跨境财税新政:旧账按2%起征",
-                         "url":  "https://www.amz123.com/t/p605kIrE",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "跨境财税新政落地：2025年9月前存量业务按2%利润率核定征收。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-15",
-                         "source_name":  "雨果跨境",
-                         "title":  "开年就被税务局约谈！亚马逊卖家：底裤被扒",
-                         "url":  "https://www.cifnews.com/article/184350",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "多位亚马逊卖家被税务局约谈，感叹底裤被扒，税务监管空前严格。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-10",
-                         "source_name":  "AMZ123",
-                         "title":  "私户收款、收入拆分、零申报...2026八大税务高危红线，跨境卖家再不自查就晚了",
-                         "url":  "https://www.amz123.com/t/nKU2rMz8",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "2026年跨境卖家八大税务高危红线梳理，强烈建议自查整改。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-10",
-                         "source_name":  "雨果跨境",
-                         "title":  "跨境税务合规破局，亚马逊等多平台推新举措",
-                         "url":  "https://www.cifnews.com/article/185214",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "跨境税务合规进入新阶段，亚马逊等多平台推出合规新举措。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-05",
-                         "source_name":  "雨果跨境",
-                         "title":  "慌了！亚马逊报给税局的数据与卖家收入对不上",
-                         "url":  "https://www.cifnews.com/article/182077",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "亚马逊报给税局的数据与卖家自身收入对不上，卖家恐慌求解。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-05",
-                         "source_name":  "AMZ123",
-                         "title":  "亚马逊店群，税务炸弹！",
-                         "url":  "https://www.amz123.com/t/zi2ojrtH",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "亚马逊店群模式的税务风险解析，多主体运营隐患严重。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-03-01",
-                         "source_name":  "AMZ123",
-                         "title":  "平台数据比对第四轮来袭，漏报收入=补税+滞纳金+稽查风险",
-                         "url":  "https://www.amz123.com/t/8G68JpOf",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "第四轮平台数据比对开启，漏报收入将面临补税、滞纳金和稽查三重风险。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-28",
-                         "source_name":  "雨果跨境",
-                         "title":  "多地税务局下发预警短信！亚马逊卖家遇上无解题",
-                         "url":  "https://www.cifnews.com/article/183719",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "多地税务局下发预警短信，亚马逊卖家陷入无解的两难困境。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-25",
-                         "source_name":  "雨果跨境",
-                         "title":  "2026税务监管前瞻：平台数据透明下的模式转换与合规准备",
-                         "url":  "https://www.cifnews.com/article/183290",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "2026年税务监管前瞻分析，平台数据透明化下的合规应对。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-25",
-                         "source_name":  "AMZ123",
-                         "title":  "6月30日截止！税务总局点名CRS境外所得：隐匿申报将面临重罚",
-                         "url":  "https://www.amz123.com/t/7fngVrFs",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "税务总局点名CRS境外所得申报，6月30日截止，隐匿申报将面临重罚。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-20",
-                         "source_name":  "AMZ123",
-                         "title":  "拆解赛维模式！亚马逊店群就是定制炸弹！",
-                         "url":  "https://www.amz123.com/t/tahCciqK",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "深度拆解赛维模式的税务风险，亚马逊店群等同定制税务炸弹。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-20",
-                         "source_name":  "雨果跨境",
-                         "title":  "补税数千万元，又一批深圳货代暴雷！黑名单全公开",
-                         "url":  "https://www.cifnews.com/article/185273",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "深圳多家货代因补税数千万元暴雷，黑名单全面公开。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-15",
-                         "source_name":  "AMZ123",
-                         "title":  "紧急预警！跨境电商迎来最强稽查：金税四期严比对，收入不符将被严查",
-                         "url":  "https://www.amz123.com/t/ezoDvcw5",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "金税四期系统上线，跨境电商迎来最严格的数据比对与税务稽查。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-15",
-                         "source_name":  "雨果跨境",
-                         "title":  "赛维模式陷税务迷局：主体错配、空壳公司埋雷，商家左右为难",
-                         "url":  "https://www.cifnews.com/article/180240",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "赛维模式面临税务合规挑战，商家面临主体错配和空壳公司风险。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-10",
-                         "source_name":  "雨果跨境",
-                         "title":  "卖家注意！亚马逊再推税务数据",
-                         "url":  "https://www.cifnews.com/article/182573",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "亚马逊再次推送税务数据给中国税务机关，卖家合规压力持续。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-10",
-                         "source_name":  "AMZ123",
-                         "title":  "第四轮税务提醒来了：已点名数据差异，再拖可能直接处理",
-                         "url":  "https://www.amz123.com/t/jaOuDevs",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "第四轮税务提醒下发，已明确点名数据差异，再拖延将直接被处理。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-05",
-                         "source_name":  "雨果跨境",
-                         "title":  "税务合规一周大事！四市迎重磅利好！无票免征+核定征收4%来了",
-                         "url":  "https://www.cifnews.com/article/181140",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "四市迎税务合规利好，无票免征与核定征收4%政策出台。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-02-01",
-                         "source_name":  "中国政府网",
-                         "title":  "增值税法配套文件发布",
-                         "url":  "https://www.gov.cn/zhengce/zhengceku/202602/content_7057580.htm",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "国务院发布增值税法配套实施文件，进一步明确跨境电商出口业务的增值税处理规则。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-01-31",
-                         "source_name":  "深圳市商务局",
-                         "title":  "深圳市商务局关于跨境电商线上综合服务平台《无票免税》登记模块优化上线的通知",
-                         "url":  "https://commerce.sz.gov.cn/xxgk/qt/tzgg_1/content/post_12626220.html",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "深圳市跨境电商线上综合服务平台《无票免税》登记模块于2026年2月1日正式上线运行，企业可通过综服平台办理全流程电子化操作。全国范围内唯一对无票免税政策有明确发文的地区，仅针对深圳注册主体的9610出口模式卖家。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-01-30",
-                         "source_name":  "中国政府网",
-                         "title":  "国家税务总局关于发布《出口业务增值税和消费税退（免）税管理办法》的公告（2026年第5号）",
-                         "url":  "https://www.gov.cn/zhengce/zhengceku/202602/content_7056762.htm",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "国家税务总局发布出口退税管理新规，明确出口货物在报关出口之日起36个月内未申报办理出口退（免）税的，将视同向境内销售货物，按规定缴纳增值税。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-01-20",
-                         "source_name":  "雨果跨境",
-                         "title":  "亚马逊涉税信息报送，卖家关心10个问题解答",
-                         "url":  "https://www.cifnews.com/article/179854",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "Yiju谈跨境整理卖家关心的10个PN15相关问题并逐一解答。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-01-15",
-                         "source_name":  "雨果跨境",
-                         "title":  "跨境卖家如何应对10月生效的税务核查",
-                         "url":  "https://www.cifnews.com/article/179719",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "解析2025年10月生效的税务核查要点及卖家应对策略。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2026-01-10",
-                         "source_name":  "雨果跨境",
-                         "title":  "2025跨境税务新政：PN15落地解读",
-                         "url":  "https://www.cifnews.com/article/179396",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "2025年跨境税务新政PN15落地后的全面解读。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-12-28",
-                         "source_name":  "大数跨境",
-                         "title":  "亚马逊涉税报送刷屏 小卖家税务合规",
-                         "url":  "https://www.10100.com/article/54301592",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "面对亚马逊涉税报送新规，小规模纳税人的最优合规方案梳理。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-11-05",
-                         "source_name":  "雨果跨境",
-                         "title":  "税务监管再收紧！跨境卖家营收情况透明化",
-                         "url":  "https://www.cifnews.com/article/176543",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "国家税务总局2025年第15号公告发布，跨境平台严格报税。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-10-28",
-                         "source_name":  "雨果跨境",
-                         "title":  "一文看懂2025跨境税务新政：谁要报、报什么、不报怎么办",
-                         "url":  "https://www.cifnews.com/article/176351",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "国务院令810号与PN15出台后的跨境税务新政解读。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-10-20",
-                         "source_name":  "雨果跨境",
-                         "title":  "税务监管再收紧！跨境卖家营收情况透明化（续）",
-                         "url":  "https://www.cifnews.com/article/176203",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "国税总局15号公告发布，电商监管盲区彻底被堵死。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-10-15",
-                         "source_name":  "大数跨境",
-                         "title":  "关于亚马逊等跨境电商报税，从申报流程到省税方案一篇讲透",
-                         "url":  "https://www.10100.com/article/22102116",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "跨境电商报税流程、核心税种、合规申报与省税技巧全解读。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-10-13",
-                         "source_name":  "大数跨境",
-                         "title":  "亚马逊新规：向中国税务局报送卖家数据",
-                         "url":  "https://www.10100.com/article/30447380",
-                         "source_level":  "L3",
-                         "display_level":  "title_only",
-                         "summary":  "亚马逊2025年10月13日宣布向中国税务机关报送卖家涉税信息。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-07-01",
-                         "source_name":  "上海市税务局",
-                         "title":  "上海市税务局：PN15政策解读",
-                         "url":  "https://shanghai.chinatax.gov.cn/zcfw/zcjd/202507/t476883.html",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "上海市税务局发布互联网平台企业涉税信息报送政策解读，帮助纳税人理解810号令和PN15公告的具体要求。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-06-26",
-                         "source_name":  "国家税务总局",
-                         "title":  "国家税务总局关于互联网平台企业报送涉税信息有关事项的公告（PN15实施细则）",
-                         "url":  "https://www.chinatax.gov.cn/chinatax/c102089/c5179042/content.html",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "国家税务总局2025年第15号公告，明确互联网平台企业涉税信息报送的具体实施细则，包括报送范围、时间、内容和方式。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-06-20",
-                         "source_name":  "中国政府网",
-                         "title":  "互联网平台企业涉税信息报送规定（国务院令第810号）",
-                         "url":  "https://www.gov.cn/gongbao/2025/issue_12146/202507/content_7030983.html",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "国务院令第810号正式发布，要求互联网平台企业按季度向税务机关报送平台内经营者的身份信息、收入信息等涉税数据。违规企业处2万至50万元罚款，情节严重的责令停业整顿。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-06-20",
-                         "source_name":  "国家税务总局法规库",
-                         "title":  "互联网平台企业涉税信息报送规定（国税总局法规库版）",
-                         "url":  "https://fgk.chinatax.gov.cn/zcfgk/c100010/c5241238/content.html",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "国务院令第810号全文，规定互联网平台企业应于季度终了的次月内报送平台内经营者和从业人员的身份信息及上季度收入信息。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-03-11",
-                         "source_name":  "浙江省税务局",
-                         "title":  "浙江省税务局：增值税法解读（2025年3月）",
-                         "url":  "https://zhejiang.chinatax.gov.cn/art/2025/3/11/art_13314_633684.html",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "浙江省税务局发布增值税法相关政策解读。",
-                         "warnings":  [
-
-                                      ]
-                     },
-                     {
-                         "date":  "2025-02-10",
-                         "source_name":  "国家税务总局",
-                         "title":  "国家税务总局：跨境电商出口海外仓货物实行《离境即退税》",
-                         "url":  "https://www.chinatax.gov.cn/chinatax/n810219/n810780/c5238285/content.html",
-                         "source_level":  "L1",
-                         "display_level":  "full",
-                         "summary":  "国家税务总局发布公告，对纳税人以跨境电商出口海外仓方式（海关监管方式代码9810）出口的货物实行《离境即退税》，货物报关离境后即可申报办理出口退（免）税。",
-                         "warnings":  [
-
-                                      ]
-                     }
-                 ],
-    "feedback":  [
-                     {
-                         "date":  "2026-04-25",
-                         "source":  "AMZ123",
-                         "title":  "注意！第四轮税务核查来袭！",
-                         "url":  "https://www.amz123.com/t/57GGlioL",
-                         "sentiment_label":  "⚠️恐慌",
-                         "summary":  "AMZ123发文警告第四轮税务核查来袭，卖家面临严查。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-04-20",
-                         "source":  "雨果跨境",
-                         "title":  "亚马逊推送报税明细惹众怒！卖家集体控诉",
-                         "url":  "https://www.cifnews.com/article/182335",
-                         "sentiment_label":  "😡不满",
-                         "summary":  "亚马逊推送报税明细邮件引发卖家群体不满和集体控诉。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-04-15",
-                         "source":  "雨果跨境",
-                         "title":  "开年就被税务局约谈！亚马逊卖家：底裤被扒",
-                         "url":  "https://www.cifnews.com/article/184350",
-                         "sentiment_label":  "⚠️恐慌",
-                         "summary":  "多位亚马逊卖家被税务局约谈，感叹底裤被扒。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-04-10",
-                         "source":  "大数跨境",
-                         "title":  "严重了！大批卖家要补税到倒闭",
-                         "url":  "https://www.10100.com/article/128859118",
-                         "sentiment_label":  "⚠️恐慌",
-                         "summary":  "卖家陆续收到税务部门预警通知，大批面临补税压力。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-04-05",
-                         "source":  "AMZ123",
-                         "title":  "重磅！税务局严查亚马逊税务数据！部分卖家被税务约谈",
-                         "url":  "https://www.amz123.com/t/cvUmFdAc",
-                         "sentiment_label":  "⚠️恐慌",
-                         "summary":  "税务局第四道催命符下达，严查亚马逊税务数据。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-04-02",
-                         "source":  "AMZ123",
-                         "title":  "2.28亿收入只报2000元！卖家偷税被移送公安",
-                         "url":  "https://www.amz123.com/t/3JjChNfa",
-                         "sentiment_label":  "⚠️恐慌",
-                         "summary":  "厦门跨境公司严重偷税案例，被追缴1078万元并移送公安。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-03-28",
-                         "source":  "雨果跨境",
-                         "title":  "慌了！亚马逊报给税局的数据与卖家收入对不上",
-                         "url":  "https://www.cifnews.com/article/182077",
-                         "sentiment_label":  "😰焦虑",
-                         "summary":  "亚马逊报给税局的数据与卖家自身收入对不上，卖家恐慌求解。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-03-25",
-                         "source":  "雨果跨境",
-                         "title":  "多地税务局下发预警短信！亚马逊卖家遇上无解题",
-                         "url":  "https://www.cifnews.com/article/183719",
-                         "sentiment_label":  "😰焦虑",
-                         "summary":  "多地税务局下发预警短信，亚马逊卖家陷入无解的两难困境。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-03-20",
-                         "source":  "AMZ123",
-                         "title":  "一批卖家被约谈！税局发出第四轮提醒",
-                         "url":  "https://www.amz123.com/t/2CZPYzVY",
-                         "sentiment_label":  "😡不满",
-                         "summary":  "义乌深圳大批卖家收到税务预警通知，部分已被税务部门约谈。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-03-18",
-                         "source":  "雨果跨境",
-                         "title":  "跨境人注意了：第四季报税正倒计时！看看平台给我们挖了哪些坑",
-                         "url":  "https://www.cifnews.com/article/182951",
-                         "sentiment_label":  "😡不满",
-                         "summary":  "分析亚马逊Q3Q4税务数据与卖家后台数据差异，卖家表达不满。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-03-15",
-                         "source":  "雨果跨境",
-                         "title":  "赛维模式陷税务迷局：主体错配、空壳公司埋雷",
-                         "url":  "https://www.cifnews.com/article/180240",
-                         "sentiment_label":  "😰焦虑",
-                         "summary":  "赛维模式面临税务合规挑战，商家陷入迷局。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-03-10",
-                         "source":  "AMZ123",
-                         "title":  "亚马逊店群，税务炸弹！",
-                         "url":  "https://www.amz123.com/t/zi2ojrtH",
-                         "sentiment_label":  "⚠️恐慌",
-                         "summary":  "亚马逊店群模式的税务风险解析，多主体运营隐患严重。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-03-05",
-                         "source":  "AMZ123",
-                         "title":  "平台数据比对第四轮来袭，漏报收入=补税+滞纳金+稽查风险",
-                         "url":  "https://www.amz123.com/t/8G68JpOf",
-                         "sentiment_label":  "⚠️恐慌",
-                         "summary":  "第四轮平台数据比对开启，漏报收入三重风险。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-03-01",
-                         "source":  "AMZ123",
-                         "title":  "拆解赛维模式！亚马逊店群就是定制炸弹！",
-                         "url":  "https://www.amz123.com/t/tahCciqK",
-                         "sentiment_label":  "⚠️恐慌",
-                         "summary":  "深度拆解赛维模式的税务风险，等同定制税务炸弹。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-02-28",
-                         "source":  "AMZ123",
-                         "title":  "紧急预警！跨境电商迎来最强稽查：金税四期严比对",
-                         "url":  "https://www.amz123.com/t/ezoDvcw5",
-                         "sentiment_label":  "⚠️恐慌",
-                         "summary":  "金税四期上线，跨境电商迎来最严格数据比对。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-02-25",
-                         "source":  "AMZ123",
-                         "title":  "第四轮税务提醒来了：已点名数据差异，再拖可能直接处理",
-                         "url":  "https://www.amz123.com/t/jaOuDevs",
-                         "sentiment_label":  "😰焦虑",
-                         "summary":  "第四轮税务提醒下发，已明确点名数据差异。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-02-20",
-                         "source":  "雨果跨境",
-                         "title":  "卖家注意！亚马逊再推税务数据",
-                         "url":  "https://www.cifnews.com/article/182573",
-                         "sentiment_label":  "😰焦虑",
-                         "summary":  "亚马逊再次推送税务数据，卖家合规压力持续。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-02-15",
-                         "source":  "AMZ123",
-                         "title":  "亚马逊香港、美国报送税务数据详解",
-                         "url":  "https://www.amz123.com/t/qvdb7Ub3",
-                         "sentiment_label":  "💡求助",
-                         "summary":  "详解亚马逊香港、美国主体店铺税务数据报送情况。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-02-10",
-                         "source":  "AMZ123",
-                         "title":  "跨境电商涉税合规新政执行口径详解",
-                         "url":  "https://www.amz123.com/t/tNpo1gmq",
-                         "sentiment_label":  "😰焦虑",
-                         "summary":  "跨境电商涉税口径深度汇总，四大维度解读PN15落地细则。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-02-05",
-                         "source":  "卖家之家",
-                         "title":  "汇算清缴倒计时：核定征收VS查账征收",
-                         "url":  "https://mjzj.com/article/fjt751426u4g",
-                         "sentiment_label":  "💡求助",
-                         "summary":  "跨境电商企业所得税汇算清缴选型分析。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-02-01",
-                         "source":  "知无不言",
-                         "title":  "跨境税务风向变了：核定征收即将落地",
-                         "url":  "https://www.wearesellers.com/question/118813",
-                         "sentiment_label":  "😰焦虑",
-                         "summary":  "深圳龙华区率先启动跨境卖家摸排，核定征收窗口期来临。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-01-28",
-                         "source":  "白鲸出海",
-                         "title":  "卖家后台数据与亚马逊报送给税局的为什么不一样？",
-                         "url":  "https://www.baijing.cn/article/54962",
-                         "sentiment_label":  "💡求助",
-                         "summary":  "亚马逊官方FAQ解读：Q3税务报告数据差异问题。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-01-25",
-                         "source":  "大数跨境",
-                         "title":  "亚马逊Q4数据已报送！收到短信别慌，卖家现在最该做的5件事",
-                         "url":  "https://www.10100.com/article/126346496",
-                         "sentiment_label":  "💡求助",
-                         "summary":  "亚马逊向税务机关报送Q4数据，五步应对指南。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2026-01-10",
-                         "source":  "知无不言",
-                         "title":  "个人卖家账号怎么报税？收到亚马逊邮件说Q4数据已发给国内",
-                         "url":  "https://www.wearesellers.com/question/118062",
-                         "sentiment_label":  "😰焦虑",
-                         "summary":  "个人卖家面对Q4数据报送不知如何应对。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2025-12-20",
-                         "source":  "知无不言",
-                         "title":  "买的亚马逊店铺后续怎么处理报税比较好",
-                         "url":  "https://www.wearesellers.com/question/113390",
-                         "sentiment_label":  "💡求助",
-                         "summary":  "购买店铺后的报税处理方式咨询。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2025-11-15",
-                         "source":  "知无不言",
-                         "title":  "关于季度报税操作，微小卖家这样操作可以吗",
-                         "url":  "https://www.wearesellers.com/question/111082",
-                         "sentiment_label":  "💡求助",
-                         "summary":  "微小卖家季度报税操作方式咨询。",
-                         "matched_keywords":  [
-
-                                              ]
-                     },
-                     {
-                         "date":  "2025-10-10",
-                         "source":  "知无不言",
-                         "title":  "求助财税问题：关于7月开启电商报税，小卖家该如何操作",
-                         "url":  "https://www.wearesellers.com/question/107293",
-                         "sentiment_label":  "💡求助",
-                         "summary":  "小卖家咨询7月电商报税操作。",
-                         "matched_keywords":  [
-
-                                              ]
-                     }
-                 ],
-    "policy_timeline":  [
-                            {
-                                "date":  "2025-06-20",
-                                "milestone":  "国务院令第810号发布",
-                                "description":  "互联网平台企业涉税信息报送规定正式发布，确立平台报送义务。"
-                            },
-                            {
-                                "date":  "2025-06-26",
-                                "milestone":  "PN15公告发布",
-                                "description":  "国家税务总局2025年第15号公告发布，明确PN15实施细则。"
-                            },
-                            {
-                                "date":  "2025-10-01",
-                                "milestone":  "平台报送制度生效",
-                                "description":  "互联网平台企业涉税信息报送制度正式生效，平台开始按季度报送。"
-                            },
-                            {
-                                "date":  "2026-01-30",
-                                "milestone":  "出口退税新规发布",
-                                "description":  "国家税务总局2026年第5号公告发布，规范出口业务退免税管理。"
-                            },
-                            {
-                                "date":  "2026-01-31",
-                                "milestone":  "深圳无票免税上线",
-                                "description":  "深圳市跨境电商综服平台《无票免税》登记模块正式上线运行。"
-                            },
-                            {
-                                "date":  "2026-02-01",
-                                "milestone":  "增值税法配套文件发布",
-                                "description":  "国务院发布增值税法配套实施文件，进一步明确跨境电商增值税规则。"
-                            }
-                        ],
-    "stats":  {
-                  "total_articles":  54,
-                  "l1_count":  11,
-                  "l2_count":  0,
-                  "l3_count":  43,
-                  "feedback_count":  27,
-                  "last_updated":  "2026-04-25T08:00:00Z",
-                  "highlights_count":  5,
-                  "sentiment_distribution":  {
-                                                 "😰焦虑":  8,
-                                                 "😡不满":  3,
-                                                 "😐观望":  0,
-                                                 "💡求助":  7,
-                                                 "✅积极":  0,
-                                                 "⚠️恐慌":  9
-                                             }
-              }
+  "highlights": [
+    {
+      "title": "互联网平台企业涉税信息报送规定（国务院令第810号）",
+      "url": "https://www.gov.cn/gongbao/2025/issue_12146/202507/content_7030983.html",
+      "source_name": "中国政府网",
+      "date": "2025-06-20",
+      "source_level": "L1",
+      "is_highlight": true,
+      "summary": "中国国务院于2025年6月20日公布第810号令，自公布之日起施行，要求境内外互联网平台企业自施行之日起30日内完成税务报备，并于每季度终了次月内向主管税务机关报送平台内经营者及从业人员的身份和上季度收入信息；平台须对信息真实性负责，未报、漏报可被责令停业整顿并处10万至50万元罚款。规定同样适用于在华境内提供营利性服务的境外平台，亚马逊、淘宝、得物等所有平台卖家均被纳入强制报送范围。",
+      "matched_keywords": ["政策原文"]
+    },
+    {
+      "title": "国家税务总局关于发布《出口业务增值税和消费税退（免）税管理办法》的公告（2026年第5号）",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056762.htm",
+      "source_name": "中国政府网",
+      "date": "2026-01-30",
+      "source_level": "L1",
+      "is_highlight": true,
+      "summary": "国家税务总局于2026年1月30日发布第5号公告，自2026年1月1日起施行，对全国出口业务增值税和消费税退(免)税办法进行全面重构，明确备案、申报、核销、函调、放弃退税等全流程规则。整合原2012年第24号等规范，明确退(免)税申报期限为报关次年4月30日前收汇，逾期未申报将视同内销征税；影响所有跨境电商出口企业的退税申报与合规节奏。",
+      "matched_keywords": ["政策原文"]
+    },
+    {
+      "title": "深圳市商务局关于跨境电商线上综合服务平台《无票免税》登记模块优化上线的通知",
+      "url": "https://commerce.sz.gov.cn/xxgk/qt/tzgg_1/content/post_12626220.html",
+      "source_name": "深圳市商务局",
+      "date": "2026-01-31",
+      "source_level": "L1",
+      "is_highlight": true,
+      "summary": "深圳市商务局于2026年1月31日发布通知，优化后的跨境电商线上综合服务平台《无票免税》登记模块于2026年2月1日正式上线运行。深圳注册9610模式卖家可通过综服平台(https://www.szceb.cn/)实现全流程电子化办理，须在货物结关后至少提前2个自然日预约登记，T+2日开放数据确认。深圳目前是全国唯一对无票免税政策有明确发文的地区，仅针对深圳注册主体的9610出口模式卖家。",
+      "matched_keywords": ["政策原文"]
+    },
+    {
+      "title": "亚马逊推送报税明细惹众怒！卖家集体控诉",
+      "url": "https://www.cifnews.com/article/182335",
+      "source_name": "雨果跨境",
+      "date": "2026-03-28",
+      "source_level": "L3",
+      "is_highlight": true,
+      "summary": "2026年3月亚马逊向中国卖家发送首份季度税务报告，包含身份信息、交易额、收入、佣金服务费等数据，报告链接7天有效。卖家发现报告销售收入含目的国VAT税费导致虚高、而成本仅含平台佣金未纳入广告FBA退款等大头，预计直接推高增值税与所得税计税基础。卖家集体控诉亚马逊《两边都想割》，建议完整收集成本凭证、小规模纳税人核对是否达一般纳税人门槛以谋退税抵扣。",
+      "matched_keywords": ["平台报送", "卖家反馈"]
+    },
+    {
+      "title": "严重了！大批卖家要补税到倒闭",
+      "url": "https://www.10100.com/article/128859118",
+      "source_name": "大数跨境",
+      "date": "2026-04-02",
+      "source_level": "L3",
+      "is_highlight": true,
+      "summary": "2026年3-4月义乌深圳东莞等跨境电商集聚地大批卖家收到税务预警通知，已是第四次且措辞严厉，指2025年Q3/Q4增值税申报收入与亚马逊平台报送数据存在显著差异；金税四期系统自动比对税务、平台、银行三方数据，《私户收款、按回款低申报、零申报》模式失效。正确应对三步法：梳理平台全口径销售明细、主动联系税务机关说明差异、规范更正申报补缴税款与滞纳金并选择9810/9610/1039/9710合规报关路径。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-04-25",
+      "source_name": "AMZ123",
+      "title": "注意！第四轮税务核查来袭！",
+      "url": "https://www.amz123.com/t/57GGlioL",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年4月18日AMZ123披露税务部门第四轮针对亚马逊卖家的数据一致性核查通知下发，核查范围更广、力度更大。2025年11月深圳广东四川等六省曾同步曝光未依法申报境外收入案例（如某卖家350万元沉淀香港账户未申报补缴580万元）；税务部门通过金税四期自动抓取亚马逊销售总额、退款金额、净收入、订单数量并与卖家申报数据交叉验证，差异超10%即触发预警。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-23",
+      "source_name": "AMZ123",
+      "title": "2%核定、无票抵扣、赛维模式，这三大难题同时有了答案",
+      "url": "https://www.amz123.com/t/Xf7k8ame",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年4月《跨境电商企业涉税问题相关口径》在跨境圈传阅，国税总局跨境电商税务征管口径已下发全国各省市税局、深圳龙华区率先启动卖家摸排。文件明确三大难题解法：2025年9月30日前业务按2%应税所得率核定征收、10-12月按4%；境外发票/收据及亚马逊后台费用明细可作税前扣除凭证；赛维模式同一运营主体多店铺可统一核算成本按收入占比分摊。2026年起跨境电商全面切换查账征收。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "执行监管"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-22",
+      "source_name": "AMZ123",
+      "title": "定了！跨境财税新政：旧账按2%起征",
+      "url": "https://www.amz123.com/t/p605kIrE",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年4月22日AMZ123解读跨境财税新政：针对2025年及以前无法精准核算成本的存量业务，2025年9月30日前业务按2%利润率核定、10-12月按4%利润率核定。同步明确海外凭证(Invoice/Receipt)可作税前扣除凭证但扣除比例受限（佣金上限5%、广告费有对应额度）、赛维模式获官方认可。2026年起全面切换查账征收；代理出口若无法溯源到真实委托卖家直接按4%应税所得率核定，买单出口彻底终结。",
+      "warnings": [],
+      "matched_keywords": ["权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-22",
+      "source_name": "AMZ123",
+      "title": "私户收款、收入拆分、零申报…2026八大税务高危红线，跨境卖家再不自查就晚了",
+      "url": "https://www.amz123.com/t/nKU2rMz8",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年3月起深圳成都杭州税务局一对一电话核查跨境卖家，AMZ123梳理八大税务高危红线：收入拆分滥用多主体、个人账户隐匿收入、以毛利申报增值税、买单出口、无票采购、刷单收入不报、境外主体规避监管失效、长期零申报或滥用核定征收。2026年1月1日增值税法生效加金税四期实现交易、物流、资金、发票四流实时比对，八部门联合治税；税务监管从事后稽查转向事前引导。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "平台报送"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-22",
+      "source_name": "AMZ123",
+      "title": "6月30日截止！税务总局点名CRS境外所得：隐匿申报将面临重罚",
+      "url": "https://www.amz123.com/t/7fngVrFs",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年4月1日国家税务总局新闻发布会明确居民个人境内境外全部所得须于每年6月30日前完成个税申报，依托CRS数据对境外所得开展核查。适用人群：一年居住满183天或境内有住所者，持海外绿卡护照不免除义务。需申报类型包括境外工资、股票基金分红、股息红利、房产租金转让、保险信托收益等。未申报可能补税加万分之五滞纳金加0.5到5倍罚款加限制出境加最高7年有期徒刑。",
+      "warnings": [],
+      "matched_keywords": ["执行监管"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-20",
+      "source_name": "AMZ123",
+      "title": "全球合规新纪元：从中国15号文看跨境电商数据全透明时代",
+      "url": "https://www.amz123.com/t/c5XFMmHt",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "AMZ123深度复盘中国PN15报送机制并对比全球：亚马逊平台已按订单级加费用明细级向中国税局报送身份锚点(统一信用代码/SellerID/银行账户)、收入穿透(商品销售收入/运费/礼品包装费/税费)、费用明细(佣金/FBA/广告/服务订阅)。全球同步合围：欧盟DAC7、英国Finance Act 2021、美国1099-K门槛降至600美元、墨西哥RMF2026实时API、欧盟PPWR包装法2026年8月强制执行。卖家应确保PN15报告与海关清关数据、自申报数据三位一体。",
+      "warnings": [],
+      "matched_keywords": ["平台报送", "政策原文"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-15",
+      "source_name": "卖家之家",
+      "title": "汇算清缴倒计时：核定征收VS查账征收，选错多交几十万",
+      "url": "https://mjzj.com/article/fjt751426u4g",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年汇算清缴截止5月31日，卖家之家解读跨境电商企业所得税两种征收方式：查账征收按收入减成本减费用实际利润乘以25%计税需完整凭证；核定征收按销售额4%核定应纳税所得额乘以25%即有效税负1%。核定征收三大前提：综试区注册、线上综服平台登记出口、海关以9610/9810电商方式申报、出口无票且享增值税免税。叠加小型微利企业优惠可使有效税负低至2.5%到5%。",
+      "warnings": [],
+      "matched_keywords": ["权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-15",
+      "source_name": "AMZ123",
+      "title": "重磅！税务局严查亚马逊税务数据！部分卖家被税务约谈",
+      "url": "https://www.amz123.com/t/cvUmFdAc",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年4月AMZ123报道税务部门第四道催命符下达，直指2025年Q3/Q4增值税销售收入申报数据。卖家按回款(扣除佣金广告物流后的实际到账)申报而亚马逊按全额销售收入推送，金税四期穿透式比对后差额触发预警。被首批命中的不是头部大卖而是长期按回款申报的中小规模卖家；文章警示抛弃市场上的打包票方案，唯一出路是打通三流合一完成主体合规。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-15",
+      "source_name": "雨果跨境",
+      "title": "开年就被税务局约谈！亚马逊卖家：底裤被扒",
+      "url": "https://www.cifnews.com/article/184350",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年3月广东浙江江苏四川湖南等地亚马逊/淘宝/得物个人卖家陆续在个税APP收到合规申报服务提醒，提示申报收入少于平台报送金额。个人店铺收入按经营所得计税(5%-35%超额累进非综合所得45%)，2025年度汇算清缴截止2026年3月31日。卖家应对方案：整理成本支出凭证、联系税务局补报，或升级企业店铺走9810/9610报关退免税；升级需完成外汇局组织机构登记并含进出口经营范围否则对公账户收款受限。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "平台报送"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-10",
+      "source_name": "AMZ123",
+      "title": "亚马逊香港、美国报送税务数据详解",
+      "url": "https://www.amz123.com/t/qvdb7Ub3",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年4月AMZ123澄清亚马逊香港/美国主体店铺报税传闻：并非全部香港主体被推送，而是早年注册时注册地填中国或保留内地办公地址的老店铺、以及从国内主体切换为香港主体的店铺容易被系统识别为境内卖家。即便收到数据推送也未必能境内直接申报——亚马逊推送数据常缺统一社会信用代码/纳税人识别号等境内申报必需信息。建议核对店铺主体资料、注册地址、历史切换记录。",
+      "warnings": [],
+      "matched_keywords": ["平台报送", "执行监管"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-10",
+      "source_name": "卖家之家",
+      "title": "跨境电商所得税有的1%有的25%，弄明白了小企业一年能省几十万",
+      "url": "https://mjzj.com/article/fk0a90r8j11c",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "卖家之家深度解读国家税务总局2019年第36号公告：综试区内符合条件的跨境电商企业自2020年起可按4%应税所得率核定征收企业所得税（实际税负1%）。三大条件：综试区注册+线上综服平台登记+海关9610/9810申报+出口无票享增值税免税。可叠加小型微利企业优惠使税负低至2%。新政明确海外Invoice/Receipt可作税前扣除凭证但扣除比例受限（广告费15%、佣金5%）。",
+      "warnings": [],
+      "matched_keywords": ["权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-08",
+      "source_name": "浙江省税务局",
+      "title": "浙江省税务局：增值税法出口免抵退税办事指南",
+      "url": "https://zhejiang.chinatax.gov.cn/art/2026/4/8/art_26352_652869.html",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "浙江省税务局依据国家税务总局2026年第5号公告及财政部/税务总局公告2026年第11号，发布出口业务免抵退税办事指南。适用于生产企业出口自产货物、对外修理修配、跨境销售服务(国际运输/航天运输)、无形资产等。承诺办结期限6个工作日，一至四类企业分别在5/10/15/20个工作日内办结。明确申报凭证、附送资料、办理流程、咨询电话(0571-12366)；为跨境电商9810出口海外仓退税提供操作依据。",
+      "warnings": [],
+      "matched_keywords": ["政策原文", "权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-08",
+      "source_name": "浙江省税务局",
+      "title": "浙江省税务局：出口免退税申报办事指南（外贸企业）",
+      "url": "https://zhejiang.chinatax.gov.cn/art/2026/4/8/art_26352_652868.html",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "浙江省税务局发布外贸企业出口免退税申报办事指南，适用于不具生产能力的纳税人出口货物/对外修理修配服务/跨境销售服务/无形资产。申报需提交《外贸企业出口退税出口/进货明细申报表》、增值税专用发票、报关单或代理证明等凭证。办理时限6工作日承诺，一至四类企业5/10/15/20工作日。为跨境电商外贸型企业9610/9710/9810模式的退税操作提供省级细化依据。",
+      "warnings": [],
+      "matched_keywords": ["政策原文", "权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-08",
+      "source_name": "雨果跨境",
+      "title": "2026香港报税倒计时：错过这三个日期可能面临巨额罚款",
+      "url": "https://www.cifnews.com/article/185024",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年2月25日香港财政司发布预算案提供利得税宽减3000港元上限、利得税两级制首200万港币利润8.25%其余16.5%、跨境电商综合税分层征收(A类0%、B类9.1%、C类23.1%)。三大合规红线：FSIE外地收入豁免收紧需5%股权加9.9%实际税率或香港经营实质；零申报仅限休眠公司(2025年因不符合补审计案例同比增42%)；离岸豁免需完整非香港经营证据链。每月10日MPF、4月1日利得税报税表、5月初BIR60个人报税表。",
+      "warnings": [],
+      "matched_keywords": ["权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-05",
+      "source_name": "AMZ123",
+      "title": "跨境电商涉税合规新政执行口径详解",
+      "url": "https://www.amz123.com/t/tNpo1gmq",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "AMZ123汇总PN15落地后行业热议的《跨境电商涉税口径》四大维度：纳税主体以平台注册店铺为准，同一企业多店铺允许按收入比例分摊成本；2025年9月前存量业务按2%、10-12月按4%应税所得率核定；2026年起查账征收并认可海外Invoice/Receipt/平台明细作税前扣除凭证；买单报关面临视同内销13%增值税风险，未来必须三流合一(物流/资金/信息)。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-05",
+      "source_name": "白鲸出海",
+      "title": "卖家后台数据与亚马逊报送给税局的为什么不一样？",
+      "url": "https://www.baijing.cn/article/54962",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年1月15日亚马逊发布《关于2025年第三季度中国卖家税务信息报送常见问题说明》。数据差异原因：按订单开始配送当天人民币汇率中间价计算收入、按发货日期(非付款日期)报告交易、收入含运费礼品包装费折扣税费附加费、费用含销售佣金配送FBA广告订阅月费。卖家可通过《亚马逊配送货件》报告逐月生成比对。海外VAT/消费税含在收入项目中。",
+      "warnings": [],
+      "matched_keywords": ["平台报送", "权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-02",
+      "source_name": "大数跨境",
+      "title": "严重了！大批卖家要补税到倒闭",
+      "url": "https://www.10100.com/article/128859118",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年3-4月义乌深圳东莞等跨境电商集聚地大批卖家收到税务预警通知，已是第四次且措辞严厉，指2025年Q3/Q4增值税申报收入与亚马逊平台报送数据存在显著差异；金税四期系统自动比对税务、平台、银行三方数据。两大根源：混淆增值税(全额计税)与所得税(扣成本)逻辑导致按回款申报漏报；买单出口无本企业报关单导致收入视同内销按13%补税。正确应对三步法加9810/9610/1039/9710合规报关路径。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-02",
+      "source_name": "雨果跨境",
+      "title": "跨境人注意了：第四季报税正倒计时！看看平台给我们挖了哪些坑",
+      "url": "https://www.cifnews.com/article/182951",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年Q4报税前夕卖家因Q3数据差异陷入迷茫。亚马逊报告三大坑：收入虚高(含目的国VAT/消费税重复)、成本不全(仅含部分佣金/服务费)、时间差(按发货日期与卖家结算口径不符)。卖家群体分裂：保守派坚持按净收入申报、合规派参照亚马逊数据全额申报、小微卖家继续零申报观望。三招破解：完善成本凭证链、向税局说明收入差异、优化纳税人类型；财税服务机构咨询量2025年下半年同比增200%。",
+      "warnings": [],
+      "matched_keywords": ["卖家反馈", "平台报送"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-02",
+      "source_name": "AMZ123",
+      "title": "2.28亿收入只报2000元！卖家偷税被移送公安",
+      "url": "https://www.amz123.com/t/3JjChNfa",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "国家税务总局厦门市税务局公布典型案例：厦门悦某鑫电子商务有限公司2021-2022年出口镀锌钢板钢管及跨境电商货物共2.28亿元、拿跨境电商物流补贴105.42万元，却仅申报2000元纳税收入并保持小规模纳税人身份。海关数据与银行流水比对后被定偷税403.15万元，追缴税款加滞纳金加罚款共1078.79万元，拒不配合走逃失联被移送公安。天津黑龙江贵州重庆同步曝光四起出口骗税案，最高追缴2.01亿元加15年有期徒刑。",
+      "warnings": [],
+      "matched_keywords": ["执行监管"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-04-01",
+      "source_name": "知无不言",
+      "title": "跨境税务风向变了：核定征收即将落地",
+      "url": "https://www.wearesellers.com/question/118813",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年4月《跨境电商企业涉税问题相关口径》传开，深圳龙华区率先启动跨境卖家摸排。核心要点：2025年9月30日前业务按2%核定、10-12月按4%核定(临时窗口指导非红头文件)；2026年起查账征收看真实收入成本凭证四流统一；海外凭证(境外Invoice/Receipt、平台后台费用明细含交易时间/双方/金额)获税前扣除认可；赛维模式多店铺按收入占比分摊成本申报获官方认可；代理出口若无法溯源按4%核定。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-03-28",
+      "source_name": "AMZ123",
+      "title": "一批卖家被约谈！税局发出第四轮提醒",
+      "url": "https://www.amz123.com/t/2CZPYzVY",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年3月义乌深圳东莞多地税务部门发出第四轮税务预警通知，东莞一名卖家因2025年7-12月未足额申报已被约谈。金税四期实现税务/平台/银行/支付/海关五方数据交叉比对。卖家按回款申报(扣佣金/广告/物流后)与平台全额收入口径差异达30%-40%直接被系统标记。即：100美元订单回款60美元按60美元申报，而平台上报100美元。正确应对：全面数据梳理加主动沟通说明加规范更正申报；或选择9810/9610/1039/9710合规报关消除视同内销风险。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-03-28",
+      "source_name": "雨果跨境",
+      "title": "亚马逊推送报税明细惹众怒！卖家集体控诉",
+      "url": "https://www.cifnews.com/article/182335",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年3月亚马逊向中国卖家发送首份季度税务报告(身份信息/交易额/收入/佣金服务费等数据、报告链接7天有效)。卖家发现报告销售收入含目的国VAT(欧洲20%/美国7%-10%)导致虚高、成本仅含平台佣金未纳入广告FBA退款等大头，推高增值税加所得税计税基础。卖家集体控诉收入多出10%而费用少24%共多30%。建议完整收集广告FBA仓储退货处理费凭证、小规模纳税人核对一般纳税人门槛以谋退税抵扣。",
+      "warnings": [],
+      "matched_keywords": ["平台报送", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-03-20",
+      "source_name": "AMZ123",
+      "title": "亚马逊店群，税务炸弹！",
+      "url": "https://www.amz123.com/t/zi2ojrtH",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "AMZ123解析赛维模式合规架构：上市公司赛维时代(301381)靠四大金刚(境内运营公司加境内出口公司加香港公司加海外店铺主体)归集B2B外贸链路。货物由国内出口公司发香港公司再卖亚马逊店铺，资金反向走亚马逊回款至香港公司再通过付货款加付服务费阳光化汇回国内。税局问询时用实质重于形式话术。三条禁区：私卡收汇加买单出口加利润留海外。目的是让你规模化品牌化资本化，为融资卖号冲刺IPO铺路。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-03-18",
+      "source_name": "大数跨境",
+      "title": "亚马逊Q4数据已报送！收到短信别慌，卖家现在最该做的5件事",
+      "url": "https://www.10100.com/article/126346496",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年3月亚马逊依据国务院810号令向中国税务机关报送2025年Q4(10-12月)店铺数据，判定依据是KYC信息(法人身份证/登录IP)与注册地无关，实际控制人属中国税收居民均被报送。监管三阶段：金税四期自动比对数据标记风险名单、下发《税务事项通知书》(主动纠错窗口)、拒不整改升级立案稽查。卖家五步法：7日内下载季度报告加核对数据差异加对比申报记录加准备差异解释材料加评估境外架构实质。",
+      "warnings": [],
+      "matched_keywords": ["平台报送", "执行监管"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-03-15",
+      "source_name": "雨果跨境",
+      "title": "赛维模式陷税务迷局：主体错配、空壳公司埋雷，商家左右为难",
+      "url": "https://www.cifnews.com/article/180240",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "雨果跨境分析赛维模式三类主体(店铺公司/香港公司/运营公司)分离的合规隐患。核心缺陷：店铺公司境内零申报而收入流入香港公司，税务系统比对发现有交易无申报将触发调查；香港公司若被认定在内地构成常设机构利润纳入中国企业所得税；出口多用0110一般贸易而非1039/1210无法解决主体不一致税务矛盾。完全统一主体成本高昂，绑定香港公司受限于地址要求多店铺难推广，行业集体观望等待执行细则。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-03-10",
+      "source_name": "AMZ123",
+      "title": "平台数据比对第四轮来袭，漏报收入=补税+滞纳金+稽查风险",
+      "url": "https://www.amz123.com/t/8G68JpOf",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2025年10月第一轮平台数据对接起至2026年第四轮核查铺开，税务局不再依赖企业自主申报而手握平台第一手数据精准锁定差异。过去按到账回款申报的习惯(亚马逊后台净收入已扣佣金/FBA/广告/退款/手续费)与税务局获得的平台全口径收入(含货款运费代收费用)差异达30%-40%。深圳卖家测算：年回款200万加平台全口径250万加综合补税(13%增值税+5%所得税+附加+滞纳金)接近收入20%。主动更正补税加滞纳金一般不罚款，被稽查则罚0.5-5倍。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "平台报送"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-03-10",
+      "source_name": "雨果跨境",
+      "title": "跨境税务合规破局，亚马逊等多平台推新举措",
+      "url": "https://www.cifnews.com/article/185214",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "雨果跨境梳理2026年跨境电商税务合规生死局：平台涉税数据全面推送加新增值税法生效。传统0110香港模式(如赛维)存在所得税争议风险；政策鼓励的9810海外仓模式打通离境即退税堵点但面临预估零售价报关的实操难点。无完美方案，卖家需在增值税上争取不碰货则不征税认定，所得税上做好收入成本匹配店铺主体，尽早从灰色地带转向政策鼓励的长期合规模式。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "执行监管"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-03-05",
+      "source_name": "雨果跨境",
+      "title": "慌了！亚马逊报给税局的数据与卖家收入对不上",
+      "url": "https://www.cifnews.com/article/182077",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "雨果跨境合规专栏：税局通过电子税务局下发《关于对赛维模式企业涉税问题开展专题调研的通知》，明确赛维模式定义(店铺注册/货物出口/资金支付三环节分离)，要求提交授权协议、ODI境外投资证书、香港公司审计报告、第三方支付工具对账单等佐证材料。广州碧绿丝生物科技完成首笔9810离境即退税/销售再核算预退税，标志9810模式常态化运行。答疑涵盖进出口权办理、主体变更认定无合理商业目的判定、进项票、视同销售、留抵退税申请条件。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-03-05",
+      "source_name": "AMZ123",
+      "title": "拆解赛维模式！亚马逊店群就是定制炸弹！",
+      "url": "https://www.amz123.com/t/tahCciqK",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "AMZ123解读上市公司赛维时代(301381)被监管层认可的合规架构：四大金刚主体(境内运营公司加境内出口公司加香港公司加海外店铺主体)将多店群业务拆为清晰B2B外贸链路。货物和资金双向闭环：货物从境内出口公司至香港公司再至海外店铺公司，资金从亚马逊至香港公司再通过付货款/服务费阳光化返国内。应对税务约谈用实质重于形式话术(店铺公司仅是法律主体、决策采购资金全在境内总公司、利润通过合规渠道100%回国内交税)。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "执行监管"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-03-01",
+      "source_name": "AMZ123",
+      "title": "紧急预警！跨境电商迎来最强稽查：金税四期严比对，收入不符将被严查",
+      "url": "https://www.amz123.com/t/ezoDvcw5",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年2-3月义乌深圳东莞多地跨境电商卖家密集收到税务预警短信，已是第四次警示。金税四期全面上线后平台交易/企业申报/资金流水三方交叉核验。卖家按回款申报(扣佣金/广告/物流后)与税务口径(增值税全额)冲突；买单出口无本企业报关单导致一般纳税人按13%视同内销补税。补救路径：9810(海外仓FBA适配)加9610(直邮B2C简化清单核放)加1039(无票货物中小卖家免征)加9710(B2B电子订单通关便利)。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "平台报送"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-02-28",
+      "source_name": "雨果跨境",
+      "title": "多地税务局下发预警短信！亚马逊卖家遇上无解题",
+      "url": "https://www.cifnews.com/article/183719",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年2月5日广东湖北浙江江苏安徽等多地卖家同时收到税务局预警短信，距Q4报税截止日1月20日仅15天。部分覆盖Q3加Q4两个季度。按回款、income、income加VAT、如实按平台销售额报税的卖家均有人收到预警。痛点：2025年Q4报关单不完整部分未匹配销售额被认定为出口转内销；9810/9610/0110报关模式各地认定差异(厦门直接转内销交增值税、四线城市允许零申报后补交)。尚未跑通合规报关的卖家纠结应对。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-02-25",
+      "source_name": "雨果跨境",
+      "title": "2026税务监管前瞻：平台数据透明下的模式转换与合规准备",
+      "url": "https://www.cifnews.com/article/183290",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "雨果跨境合规夜话直播第13期中智周万物创始人周颜分析2026年监管动向：税局跨部门数据共享、海关/银行/平台/税局系统打通。季度销售超500万店铺成税局约谈重点，要求提供平台交易记录、业务模式说明、境外股权架构。0110香港模式处于研究观察阶段未完全认可或否定；9810模式具备政策可行性但面临成本攀升、手工匹配订单报关单繁琐、次年4月底前核销压力。区域监管差异显著(深圳审批顺畅非活跃地区拒受理)。合规需预留2-3年调整期。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "执行监管"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-02-20",
+      "source_name": "AMZ123",
+      "title": "第四轮税务提醒来了：已点名数据差异，再拖可能直接处理",
+      "url": "https://www.amz123.com/t/jaOuDevs",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年2月AMZ123报道义乌深圳东莞等地大批卖家收到税务局第四轮提醒通知，措辞硬化明确多次提醒若不处理将依法处置。2025年10月首次平台集中报送完成后税局系统自动比对，差额超阈值直接锁定预警。被首批命中的不是头部大卖而是多平台混报、店铺与主体分离、长期按回款申报的中小规模卖家。三种心态要丢：不赌群发、不按回款申报、不轻信筹划方案。三步走：搞清申报口径差异来源、联系专业税务顾问、主动整改。",
+      "warnings": [],
+      "matched_keywords": ["执行监管", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-02-20",
+      "source_name": "雨果跨境",
+      "title": "补税数千万元，又一批深圳货代暴雷！黑名单全公开",
+      "url": "https://www.cifnews.com/article/185273",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年2月深圳市国际货运代理协会发布第二批货代行业失信企业及重大税收违法黑名单：9家被法院列失信被执行人加13家被税务部门认定重大违法主体。典型案例：深圳华通物流补缴税款1554.84万加罚款775.60万；深圳利丰源供应链涉骗取出口退税2091万。违法类型集中在逃避缴纳税款、虚开发票、骗取出口退税、走逃失联。监管多部门联合落地，卖家可依托官方失信名单前置防控风险，倒逼行业合规经营。",
+      "warnings": [],
+      "matched_keywords": ["执行监管"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-02-15",
+      "source_name": "AMZ123",
+      "title": "亚马逊香港、美国报送税务数据详解（续）",
+      "url": "https://www.amz123.com/t/qvdb7Ub3",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "AMZ123详解亚马逊香港/美国主体店铺税务数据报送情况：新注册香港公司店铺多数未收到推送，只有早年注册地填中国或保留内地办公地址的老店铺、以及国内切换香港主体的店铺容易被系统识别为境内卖家。即便收到数据推送也因亚马逊推送数据常缺统一社会信用代码/纳税人识别号等不能直接在境内完成申报。合规建议：核对店铺主体资料、注册地址、历史切换记录；香港公司因可控性、成本和真实距离优势仍是最优解。",
+      "warnings": [],
+      "matched_keywords": ["平台报送", "卖家反馈"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-02-10",
+      "source_name": "雨果跨境",
+      "title": "卖家注意！亚马逊再推税务数据",
+      "url": "https://www.cifnews.com/article/182573",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2026年2月亚马逊后台向卖家二刷推送2025年Q3(7-9月)税务报告，专门发给2025年12月首次推送时未及时下载报告的卖家，报告链接仅7天有效。数据包含身份信息/季度交易量/收入/平台佣金及服务费核心涉税数据，与Q4大促复杂度(黑五/网一订单退款促销折扣)形成对比。部分卖家已收到跨境电商风险核实任务通知需1月13日前到税源管理部门对接。建议及时下载存档加与税代确认口径加提前准备Q4对账。",
+      "warnings": [],
+      "matched_keywords": ["平台报送", "执行监管"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-02-05",
+      "source_name": "雨果跨境",
+      "title": "税务合规一周大事！四市迎重磅利好！无票免征+核定征收4%来了",
+      "url": "https://www.cifnews.com/article/181140",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "雨果跨境合规专栏：继广州后杭州启动9610无票免征试点(100卖家参与)、深圳开出全国首单9610清单模式代理出口货物证明、邵阳综试区推出无票免税加4%核定征收加离境即退税三大减税红利、亚马逊严打大陆切换香港主体避税封号冻结。税务合规答疑覆盖9810一票多仓报关、出口报关与实际销售额差距处理、多供应商组合产品开票、分批收款与报关金额不一致、小规模升一般纳税人是否缴13%等实操问题。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "平台报送"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-02-06",
+      "source_name": "中国政府网",
+      "title": "关于跨境电子商务出口退运商品税收优惠政策的公告（2026年第16号）",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7057580.htm",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "财政部/海关总署/税务总局2026年2月6日联合发布第16号公告：自2026年1月1日至2027年12月31日期间在跨境电商海关监管代码(1210/9610/9710/9810)项下申报出口、因滞销退货原因6个月内原状退运进境的商品(不含食品)免征进口关税和进口环节增值税消费税，出口关税准予退还。1210代码商品应自海关特殊监管区域出区离境之日起6个月内退运至境内区外。企业需提供出口报关单、退运原因说明或退货记录。",
+      "warnings": [],
+      "matched_keywords": ["政策原文"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-01-31",
+      "source_name": "深圳市商务局",
+      "title": "深圳市商务局关于跨境电商线上综合服务平台《无票免税》登记模块优化上线的通知",
+      "url": "https://commerce.sz.gov.cn/xxgk/qt/tzgg_1/content/post_12626220.html",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "深圳市商务局于2026年1月31日发布通知，优化后的跨境电商线上综合服务平台《无票免税》登记模块于2026年2月1日正式上线运行。深圳注册9610模式卖家可通过综服平台(https://www.szceb.cn/)实现全流程电子化办理，须在货物结关后至少提前2个自然日预约登记，T+2日开放数据确认。深圳目前是全国唯一对无票免税政策有明确发文的地区，仅针对深圳注册主体的9610出口模式卖家。",
+      "warnings": [],
+      "matched_keywords": ["政策原文"],
+      "is_highlight": true
+    },
+    {
+      "date": "2026-01-30",
+      "source_name": "中国政府网",
+      "title": "国家税务总局关于发布《出口业务增值税和消费税退（免）税管理办法》的公告（2026年第5号）",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7056762.htm",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "国家税务总局于2026年1月30日发布第5号公告，自2026年1月1日起施行，对全国出口业务增值税和消费税退(免)税办法进行全面重构，明确备案、申报、核销、函调、放弃退税等全流程规则。整合原2012年第24号等规范，明确退(免)税申报期限为报关次年4月30日前收汇，逾期未申报将视同内销征税；影响所有跨境电商出口企业的退税申报与合规节奏。",
+      "warnings": [],
+      "matched_keywords": ["政策原文"],
+      "is_highlight": true
+    },
+    {
+      "date": "2026-01-20",
+      "source_name": "雨果跨境",
+      "title": "亚马逊涉税信息报送，卖家关心10个问题解答",
+      "url": "https://www.cifnews.com/article/179854",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "Yiju谈跨境整理亚马逊启动向中国税务机关报送涉税信息后卖家最关心10个问题：亚马逊按季度报送身份/交易/财务/银行账户详情(总收入含退款前全部销售额)；有交易必须如实申报不得零申报；涉及增值税(一般纳税人13%/小规模1%-3%)、企业所得税(一般25%/小微5%)、个税(5%-35%累进)；每店铺独立申报不得合并；佣金广告等无国内发票不得进项抵扣只能作所得税成本列支；个人账户收款需转对公；切换香港主体风险高。",
+      "warnings": [],
+      "matched_keywords": ["平台报送", "权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-01-15",
+      "source_name": "雨果跨境",
+      "title": "跨境卖家如何应对10月生效的税务核查",
+      "url": "https://www.cifnews.com/article/179719",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2025年10月亚马逊向中国税务机关完成首次季度涉税报送覆盖2025年7-9月数据。主要涉及增值税(小规模季度销售额30万内免、超过1%、一般纳税人13%)及企业所得税(小规模利润300万内5%、一般25%)。风险最高的是未开公户/无发票/一直零申报/回款进个人账户卖家。广告费/佣金/FBA仓储费可在所得税前扣除(广告费不超营收15%)，后台付款报告需下载留存。多账号按主体信息独立报送。建议下载交易付款报告核对账面、整理发票凭证、关注专业人士解读。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "平台报送"],
+      "is_highlight": false
+    },
+    {
+      "date": "2026-01-10",
+      "source_name": "雨果跨境",
+      "title": "2025跨境税务新政：PN15落地解读",
+      "url": "https://www.cifnews.com/article/179396",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "雨果跨境深度解读国税总局第15号加17号公告：10月1日至31日平台首次报送身份及收入数据；代理方式(市场采购/外贸综合服务/买单)出口若未准确报送实际委托方出口信息与金额将视同自营出口由出口主体承担所得税。公告旨在收集外贸跨境电商数据综合分析，短期内未必立即实质征收。跨境电商出口企业核定征收认定在多地尚未开展或暂停，由物流/货代/报关行作为出口主体备案电商企业后申请核定征收是一种可能路径，但需解决代理方缴纳所得税的认可及中小微认定问题。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "政策原文"],
+      "is_highlight": false
+    },
+    {
+      "date": "2025-12-28",
+      "source_name": "大数跨境",
+      "title": "亚马逊涉税报送刷屏 小卖家税务合规",
+      "url": "https://www.10100.com/article/54301592",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "大数跨境合规指引：小规模纳税人中小卖家最优方案为小规模纳税人资质加进项普通发票加出口免税政策加海关9810监管代码。一般纳税人维护成本约为小规模的2倍仅适用有退税需求企业。无需出口退税企业无需增值税专用发票普票即可作进项凭证。9810(海外仓出口)配合出口免税最适配FBA模式避开退税实操难点。中大型卖家可用主体公司加店铺授权管理模式(大陆或香港公司)。答疑覆盖报送基数确定(按销售额含发货时间7天延迟)、回款转公户、年销售额500万处理、一般纳税人转换路径。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "平台报送"],
+      "is_highlight": false
+    },
+    {
+      "date": "2025-11-05",
+      "source_name": "雨果跨境",
+      "title": "税务监管再收紧！跨境卖家营收情况透明化",
+      "url": "https://www.cifnews.com/article/176203",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2025年国家税务总局第15号公告发布：无论平台境内境外只要为中国卖家提供服务或向中国用户开展交易撮合活动都必须报送涉税信息。境外平台需指定中国代理人。必须报送三类数据：卖家身份信息(姓名/税号/身份证/店铺ID)、收入明细(每季度销售额/退款/净收入甚至虚拟货币)、特殊情况(直播主播MCN关系/境外平台单笔季度收入超5000元)。时间节点：2025年7月前基本信息备案、10月起每季度终了1个月内报送。违规罚2万至50万情节严重停业整顿。",
+      "warnings": [],
+      "matched_keywords": ["政策原文", "权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2025-10-28",
+      "source_name": "雨果跨境",
+      "title": "一文看懂2025跨境税务新政：谁要报、报什么、不报怎么办",
+      "url": "https://www.cifnews.com/article/176351",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "融创云解读国务院810号令加国税总局PN15公告：从2025年起跨境电商正式告别税收灰色地带，境内外平台一视同仁须按季度报送经营者身份加收入信息。卖家身份信息(姓名/信用代码/店铺唯一识别码)加卖家收入信息(不扣佣金的收入总额/退款/净收入/订单数量)全部被纳入系统。四大冲击：数据透明化加合规成本上升加平台合规加码加架构被重塑。三步应对策略：自查风险(申报vs销售数据)加规范做账合规申报加规划架构(境内加境外双主体合规运营)。",
+      "warnings": [],
+      "matched_keywords": ["政策原文", "权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2025-10-15",
+      "source_name": "大数跨境",
+      "title": "关于亚马逊等跨境电商报税，从申报流程到省税方案一篇讲透",
+      "url": "https://www.10100.com/article/22102116",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "大数跨境梳理跨境电商报税全流程：2025年亚马逊/Temu/Shein/TikTok Shop等平台按季度向税务机关报送卖家涉税信息首报2025年10月底。申报4步：数据整理(后台导出对账)加增值税申报(小规模≤30万免/超过1%、一般纳税人13%可抵扣)加企业所得税(年利润≤300万5%优惠/超过25%)加出口退税(单一窗口10工作日到账)。省税方案：个体户核定征收综合税负1.5%-2.5%加返税园区(增值税返40%/所得税返16%实际税负7%)加出口退税加合规节税四流一致。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "平台报送"],
+      "is_highlight": false
+    },
+    {
+      "date": "2025-10-13",
+      "source_name": "大数跨境",
+      "title": "亚马逊新规：向中国税务局报送卖家数据",
+      "url": "https://www.10100.com/article/30447380",
+      "source_level": "L3",
+      "display_level": "title_only",
+      "summary": "2025年10月13日亚马逊官方宣布：根据国务院第810号令及国税总局第15号公告，将向中国税务机关首次报送2025年7-9月期间中国卖家的交易数据。报送内容涵盖身份信息、交易数量、收入、佣金与服务费。所有中国卖家销售额/费用支出/结算数据以季度为周期同步税务部门。未开公户/无发票/一直零申报/回款进个人账户的卖家风险最高，建议立即注册公司开对公账户加走正规资金流加整理成本凭证。",
+      "warnings": [],
+      "matched_keywords": ["平台报送", "权威解读"],
+      "is_highlight": false
+    },
+    {
+      "date": "2025-07-01",
+      "source_name": "上海市税务局",
+      "title": "上海市税务局：PN15政策解读",
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/zcjd/202507/t476883.html",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "上海市税务局发布PN15公告解读，围绕谁来报、报什么、怎么报、不报怎么办四个方面细化报送要求。同一平台企业运营多平台须分平台分别填报身份与收入信息表。聚合平台(如网约车聚合)需报送聚合平台及其内平台企业身份信息。明确专业服务机构(MCN/公会)范围、便民劳务活动(配送/运输/家政)免报、非货币形式经济利益(某豆某币)按到账时折算人民币报送、佣金服务费合并计算、订单数量按净交易数填报、多店铺按店铺ID分多行填报。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "政策原文"],
+      "is_highlight": false
+    },
+    {
+      "date": "2025-06-26",
+      "source_name": "国家税务总局",
+      "title": "国家税务总局关于互联网平台企业报送涉税信息有关事项的公告（PN15实施细则）",
+      "url": "https://www.chinatax.gov.cn/chinatax/c102089/c5179042/content.html",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "国家税务总局2025年第15号公告(PN15)发布，作为国务院第810号令的配套实施细则，明确互联网平台企业涉税信息报送的具体类别和内容、数据口径和标准、境外平台报送等事宜。公告从谁来报/报什么/怎么报/不报怎么办四个维度细化操作要求，涵盖平台基本信息、平台内经营者和从业人员的身份信息及收入信息、直播相关收入报送规则、延期/更正/终止报送、未按规定报送的处理措施。同一平台企业运营多平台时须分平台分别填报。",
+      "warnings": [],
+      "matched_keywords": ["政策原文"],
+      "is_highlight": false
+    },
+    {
+      "date": "2025-06-20",
+      "source_name": "中国政府网",
+      "title": "互联网平台企业涉税信息报送规定（国务院令第810号）",
+      "url": "https://www.gov.cn/gongbao/2025/issue_12146/202507/content_7030983.html",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "中国国务院于2025年6月20日公布第810号令，自公布之日起施行，要求境内外互联网平台企业自施行之日起30日内完成税务报备，并于每季度终了次月内向主管税务机关报送平台内经营者及从业人员的身份和上季度收入信息；平台须对信息真实性负责，未报、漏报可被责令停业整顿并处10万至50万元罚款。规定同样适用于在华境内提供营利性服务的境外平台，亚马逊、淘宝、得物等所有平台卖家均被纳入强制报送范围。",
+      "warnings": [],
+      "matched_keywords": ["政策原文"],
+      "is_highlight": true
+    },
+    {
+      "date": "2025-06-20",
+      "source_name": "国家税务总局法规库",
+      "title": "互联网平台企业涉税信息报送规定（国税总局法规库版）",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c100010/c5241238/content.html",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "国家税务总局法规库收录的国务院令第810号全文：规定互联网平台企业应于季度终了的次月内向主管税务机关报送平台内经营者和从业人员的身份信息及上季度收入信息。配送运输家政等便民劳务活动从业人员享税收优惠的不需报送；已做扣缴申报/代办申报的涉税信息不需重复报送。平台须核验信息真实性准确性完整性。情节严重者责令停业整顿并处10-50万元罚款。施行前涉税信息不需报送，境外平台在华境内营利性服务按税务主管部门规定报送。",
+      "warnings": [],
+      "matched_keywords": ["政策原文"],
+      "is_highlight": false
+    },
+    {
+      "date": "2025-03-11",
+      "source_name": "浙江省税务局",
+      "title": "浙江省税务局：海外仓出口货物离境即退税政策解答",
+      "url": "https://zhejiang.chinatax.gov.cn/art/2025/3/11/art_13314_633684.html",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "浙江省税务局热点问答：依据国家税务总局2025年第3号公告，纳税人以海关监管方式9810出口的货物，报关离境后即可申报办理出口退(免)税。申报时货物已实现销售的按现行规定办理；尚未实现销售的按离境即退税销售再核算方式申报，即货物报关离境后即可预先申报出口退(免)税(出口预退税)，后续再根据货物销售情况进行税款核算。该公告施行前尚未申报出口退(免)税的出口海外仓货物也按公告规定执行。",
+      "warnings": [],
+      "matched_keywords": ["权威解读", "政策原文"],
+      "is_highlight": false
+    },
+    {
+      "date": "2025-02-10",
+      "source_name": "国家税务总局",
+      "title": "国家税务总局：跨境电商出口海外仓货物实行《离境即退税》",
+      "url": "https://www.chinatax.gov.cn/chinatax/n810219/n810780/c5238285/content.html",
+      "source_level": "L1",
+      "display_level": "full",
+      "summary": "国家税务总局公告2025年第3号：对纳税人以跨境电商出口海外仓方式(海关监管方式代码9810)出口的货物实行离境即退税政策。货物报关离境后即可申报办理出口退(免)税：已实现销售的按现行规定；尚未实现销售的按离境即退税销售再核算方式申报(即预退税后续核算)。该政策解决了9810模式海外仓货物退税难题，对跨境电商FBA/海外仓卖家的现金流改善具有直接作用。",
+      "warnings": [],
+      "matched_keywords": ["政策原文"],
+      "is_highlight": false
+    }
+  ],
+  "feedback": [
+    {
+      "date": "2026-04-25",
+      "source": "AMZ123",
+      "title": "注意！第四轮税务核查来袭！",
+      "url": "https://www.amz123.com/t/57GGlioL",
+      "sentiment_label": "⚠️恐慌",
+      "summary": "2026年4月18日AMZ123发文警告第四轮税务核查来袭，卖家面临严查。税务部门通过金税四期自动抓取亚马逊销售总额、退款金额、净收入并与卖家申报数据交叉验证差异超10%即触发预警。2025年11月深圳广东四川六省曾同步曝光未申报境外收入案例(350万货款未申报补缴580万)。建议卖家下载亚马逊数据文件与自身账目逐项比对、布局香港公司架构合规留存海外利润。",
+      "matched_keywords": ["执行监管"]
+    },
+    {
+      "date": "2026-04-20",
+      "source": "雨果跨境",
+      "title": "亚马逊推送报税明细惹众怒！卖家集体控诉",
+      "url": "https://www.cifnews.com/article/182335",
+      "sentiment_label": "😡不满",
+      "summary": "2026年3月亚马逊向中国卖家发送首份季度税务报告，卖家发现报告销售收入含目的国VAT税费虚高、成本仅含平台佣金未纳入广告FBA退款大头，预计直接推高增值税与所得税计税基础。卖家集体控诉亚马逊两边都想割：欧洲20%增值税加美国7-10%消费税被重复计算加平台费用少24%共多出30%利润。卖家建议按这份报告为基准完整收集成本凭证、向税务局申说明虚高情况、优化纳税人类型走合规出口报关。",
+      "matched_keywords": ["平台报送", "卖家反馈"]
+    },
+    {
+      "date": "2026-04-15",
+      "source": "雨果跨境",
+      "title": "开年就被税务局约谈！亚马逊卖家：底裤被扒",
+      "url": "https://www.cifnews.com/article/184350",
+      "sentiment_label": "⚠️恐慌",
+      "summary": "2026年3月广东浙江江苏四川湖南等地亚马逊/淘宝/得物个人卖家在个税APP收到合规申报服务提醒，提示申报收入少于平台报送金额，卖家形容底裤被扒。个人店铺收入按经营所得计税(5%-35%超额累进)，2025年度汇算清缴截止2026年3月31日。应对方案：整理成本支出凭证向税务局说明、升级企业店铺走9810/9610报关退免税；升级需完成外汇局组织机构登记并含进出口经营范围否则对公账户收款受限。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-04-10",
+      "source": "大数跨境",
+      "title": "严重了！大批卖家要补税到倒闭",
+      "url": "https://www.10100.com/article/128859118",
+      "sentiment_label": "⚠️恐慌",
+      "summary": "2026年3-4月义乌深圳东莞等跨境电商集聚地大批卖家收到税务部门第四次预警通知措辞严厉。金税四期比对三方数据差额一目了然。两大根源：按回款申报混淆增值税与所得税计税逻辑；买单出口无本企业报关单导致按13%视同内销补税。补救：全面数据梳理加主动沟通说明加规范更正申报补缴滞纳金。建议选择9810(FBA)/9610(直邮)/1039(无票中小卖家)/9710(B2B)合规报关消除视同内销风险。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-04-05",
+      "source": "AMZ123",
+      "title": "重磅！税务局严查亚马逊税务数据！部分卖家被税务约谈",
+      "url": "https://www.amz123.com/t/cvUmFdAc",
+      "sentiment_label": "⚠️恐慌",
+      "summary": "2026年4月AMZ123报道税务局第四道催命符下达，直指2025年Q3/Q4增值税销售收入申报数据。卖家按回款申报(亚马逊后台扣除佣金/广告/物流后的实际到账)而亚马逊按全额销售收入推送，金税四期穿透式比对后差额触发预警。被首批命中的是长期按回款申报的中小规模卖家而非头部大卖。警示抛弃核定征收/园区筹划等打包票方案，唯一出路是打通资金流货物流单证流三流合一完成主体合规。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-04-02",
+      "source": "AMZ123",
+      "title": "2.28亿收入只报2000元！卖家偷税被移送公安",
+      "url": "https://www.amz123.com/t/3JjChNfa",
+      "sentiment_label": "⚠️恐慌",
+      "summary": "厦门悦某鑫电子商务有限公司2021-2022年出口镀锌钢板钢管及跨境电商货物共2.28亿元、拿跨境电商物流补贴105.42万元，却仅申报2000元纳税收入并保持小规模纳税人身份。海关数据与银行流水比对后被定偷税403.15万元，追缴税款加滞纳金加罚款共1078.79万元，拒不配合走逃失联被移送公安。天津黑龙江贵州重庆同步曝光四起出口骗税案，最高追缴2.01亿元加15年有期徒刑。",
+      "matched_keywords": ["执行监管"]
+    },
+    {
+      "date": "2026-03-28",
+      "source": "雨果跨境",
+      "title": "慌了！亚马逊报给税局的数据与卖家收入对不上",
+      "url": "https://www.cifnews.com/article/182077",
+      "sentiment_label": "😰焦虑",
+      "summary": "2026年3月税局下发《赛维模式企业涉税问题专题调研通知》明确店铺注册/货物出口/资金支付三环节分离定义并要求提交授权协议、ODI境外投资证书、香港公司审计报告、第三方支付工具对账单等佐证。广州完成首笔9810离境即退税预退税业务闭环。卖家恐慌求解报送数据与后台核算对不上原因。网传赛维模式2.0(境外买境外卖免交增值税)经专业人士求证不正确，境外单位境内销售适用6%代扣代缴。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-03-25",
+      "source": "雨果跨境",
+      "title": "多地税务局下发预警短信！亚马逊卖家遇上无解题",
+      "url": "https://www.cifnews.com/article/183719",
+      "sentiment_label": "😰焦虑",
+      "summary": "2026年2月5日广东湖北浙江江苏安徽等多地卖家同时收到税务局预警短信，距Q4报税截止日仅15天。卖家反馈：按回款、income、income加VAT甚至如实按平台销售额报税的都有人收到预警。部分卖家2025年Q4报关单不完整导致部分未匹配销售额被认定出口转内销。各地认定差异大：厦门直接转内销交增值税、四线城市允许零申报后补交。尚未跑通合规报关流程的卖家陷入无解两难。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-03-20",
+      "source": "AMZ123",
+      "title": "一批卖家被约谈！税局发出第四轮提醒",
+      "url": "https://www.amz123.com/t/2CZPYzVY",
+      "sentiment_label": "😡不满",
+      "summary": "2026年3月义乌深圳东莞多地税务部门发出第四轮税务预警通知，东莞一名卖家因2025年7-12月未足额申报已被约谈。卖家按回款申报(扣佣金/广告/物流后)与平台全额收入口径差异达30-40%直接被系统标记。案例：100美元订单回款60美元按60美元申报，而平台上报100美元。正确应对：全面数据梳理加主动沟通说明加规范更正申报；选择9810/9610/1039/9710合规报关消除视同内销风险。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-03-18",
+      "source": "雨果跨境",
+      "title": "跨境人注意了：第四季报税正倒计时！看看平台给我们挖了哪些坑",
+      "url": "https://www.cifnews.com/article/182951",
+      "sentiment_label": "😡不满",
+      "summary": "2026年Q4报税前夕卖家因Q3数据差异集体迷茫。亚马逊报告三大坑：收入虚高(含目的国VAT/消费税重复计算)、成本不全(仅含部分佣金/服务费而不含广告FBA退款)、时间差(按发货日期与卖家结算口径不符)。卖家群体分裂：保守派按净收入申报、合规派参照亚马逊数据、小微卖家零申报观望。破解三招：完善成本凭证链加合理解释收入差异加优化纳税人类型。财税服务机构咨询量2025年下半年同比增200%。",
+      "matched_keywords": ["平台报送", "卖家反馈"]
+    },
+    {
+      "date": "2026-03-15",
+      "source": "雨果跨境",
+      "title": "赛维模式陷税务迷局：主体错配、空壳公司埋雷",
+      "url": "https://www.cifnews.com/article/180240",
+      "sentiment_label": "😰焦虑",
+      "summary": "雨果跨境分析赛维模式三类主体(店铺公司/香港公司/运营公司)分离的合规隐患。核心缺陷：店铺公司境内零申报而收入流入香港公司，税务系统比对发现有交易无申报将触发调查；香港公司若被认定在内地构成常设机构利润纳入中国企业所得税；出口多用0110一般贸易而非1039/1210无法解决主体不一致税务矛盾。完全统一主体成本高昂，绑定香港公司受限于地址要求多店铺难推广。行业集体观望等待执行细则。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-03-10",
+      "source": "AMZ123",
+      "title": "亚马逊店群，税务炸弹！",
+      "url": "https://www.amz123.com/t/zi2ojrtH",
+      "sentiment_label": "⚠️恐慌",
+      "summary": "AMZ123解析赛维模式合规架构：上市公司赛维时代(301381)靠四大金刚(境内运营公司加境内出口公司加香港公司加海外店铺主体)归集B2B外贸链路。货物从国内出口公司发至香港公司再卖亚马逊店铺；资金从亚马逊至香港公司再通过付货款加付服务费阳光化汇回国内。税局问询时用实质重于形式话术。三条禁区：私卡收汇加买单出口加利润留海外。合规目的是让你规模化品牌化资本化，为融资卖号冲刺IPO铺路。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-03-05",
+      "source": "AMZ123",
+      "title": "平台数据比对第四轮来袭，漏报收入=补税+滞纳金+稽查风险",
+      "url": "https://www.amz123.com/t/8G68JpOf",
+      "sentiment_label": "⚠️恐慌",
+      "summary": "2025年10月第一轮平台数据对接起至2026年第四轮核查铺开，税务局手握平台第一手数据精准锁定差异。过去按到账回款申报的习惯(亚马逊后台净收入已扣佣金/FBA/广告/退款/手续费)与税务局获得的平台全口径收入(含货款运费代收费用)差异达30-40%。深圳卖家测算：年回款200万加平台全口径250万加综合补税接近收入20%。主动更正补税加滞纳金一般不罚款，被稽查则罚0.5-5倍，处理成本差一半。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-03-01",
+      "source": "AMZ123",
+      "title": "拆解赛维模式！亚马逊店群就是定制炸弹！",
+      "url": "https://www.amz123.com/t/tahCciqK",
+      "sentiment_label": "⚠️恐慌",
+      "summary": "AMZ123解读赛维时代(301381)四大金刚合规架构：境内运营公司加境内出口公司加香港公司加海外店铺主体。货物和资金双向闭环。应对税务约谈用实质重于形式话术(店铺公司仅是法律主体、决策采购资金全在境内总公司、利润已通过合规渠道100%回到国内交税一分钱税源都没流失)。要避开三条红线：私卡收汇加买单出口加利润留海外。架构理顺目的是规模化、品牌化、资本化，为融资卖号冲刺IPO做准备。",
+      "matched_keywords": ["卖家反馈", "权威解读"]
+    },
+    {
+      "date": "2026-02-28",
+      "source": "AMZ123",
+      "title": "紧急预警！跨境电商迎来最强稽查：金税四期严比对",
+      "url": "https://www.amz123.com/t/ezoDvcw5",
+      "sentiment_label": "⚠️恐慌",
+      "summary": "2026年2-3月义乌深圳东莞多地跨境电商卖家密集收到税务预警短信已是第四次警示。金税四期全面上线后平台交易/企业申报/资金流水三方自动交叉核验。卖家按回款申报(扣佣金/广告/物流后)与税务口径(增值税全额)冲突；买单出口无本企业报关单导致一般纳税人按13%视同内销补税。补救路径：9810(海外仓FBA适配)加9610(直邮B2C简化清单核放)加1039(无票货物中小卖家免征)加9710(B2B电子订单通关便利)。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-02-25",
+      "source": "AMZ123",
+      "title": "第四轮税务提醒来了：已点名数据差异，再拖可能直接处理",
+      "url": "https://www.amz123.com/t/jaOuDevs",
+      "sentiment_label": "😰焦虑",
+      "summary": "2026年2月AMZ123报道大批亚马逊卖家收到税务局第四轮提醒通知措辞硬化：若继续不处理将依法处置。2025年10月首次平台集中报送后税局系统自动比对差额超阈值直接锁定预警。被首批命中的是长期按回款申报的中小规模卖家而非头部大卖。三种心态要丢：不赌群发、不按回款申报、不轻信筹划方案。三步走：搞清申报口径差异来源(报关/主体/退款佣金处理)加联系专业税务顾问加主动整改。",
+      "matched_keywords": ["执行监管", "卖家反馈"]
+    },
+    {
+      "date": "2026-02-20",
+      "source": "雨果跨境",
+      "title": "卖家注意！亚马逊再推税务数据",
+      "url": "https://www.cifnews.com/article/182573",
+      "sentiment_label": "😰焦虑",
+      "summary": "2026年2月亚马逊后台向卖家二刷推送2025年Q3(7-9月)税务报告，专门发给12月首次推送时未及时下载的卖家，报告链接仅7天有效。数据包含身份信息/季度交易量/收入/平台佣金及服务费。部分卖家已收到跨境电商风险核实任务通知需1月13日前到税源管理部门对接。实操提醒：及时下载报告存档加与税代确认核算口径(收入含海外税费与其他报表不同)加提前准备Q4对账。",
+      "matched_keywords": ["平台报送", "卖家反馈"]
+    },
+    {
+      "date": "2026-02-15",
+      "source": "AMZ123",
+      "title": "亚马逊香港、美国报送税务数据详解",
+      "url": "https://www.amz123.com/t/qvdb7Ub3",
+      "sentiment_label": "💡求助",
+      "summary": "AMZ123详解亚马逊香港/美国主体店铺税务数据报送情况：新注册香港公司店铺多数未收到推送，只有早年注册地填中国或保留内地办公地址的老店铺、以及国内切换香港主体的店铺容易被系统识别为境内卖家。即便收到数据推送也因亚马逊推送数据常缺统一社会信用代码/纳税人识别号等关键税务识别信息不能直接在境内完成申报。合规建议：核对店铺主体资料、注册地址、历史切换记录。",
+      "matched_keywords": ["平台报送", "卖家反馈"]
+    },
+    {
+      "date": "2026-02-10",
+      "source": "AMZ123",
+      "title": "跨境电商涉税合规新政执行口径详解",
+      "url": "https://www.amz123.com/t/tNpo1gmq",
+      "sentiment_label": "😰焦虑",
+      "summary": "AMZ123汇总PN15落地后行业热议的《跨境电商涉税口径》四大维度：纳税主体以平台注册店铺为准允许多店铺按收入比例分摊成本；2025年9月前存量业务按2%/10-12月按4%应税所得率核定；2026年起查账征收并认可海外Invoice/Receipt/平台明细作税前扣除凭证；买单报关面临视同内销13%增值税风险未来必须三流合一(物流/资金/信息)。行业从隐形走向透明从粗放走向专业。",
+      "matched_keywords": ["权威解读", "卖家反馈"]
+    },
+    {
+      "date": "2026-02-05",
+      "source": "卖家之家",
+      "title": "汇算清缴倒计时：核定征收VS查账征收",
+      "url": "https://mjzj.com/article/fjt751426u4g",
+      "sentiment_label": "💡求助",
+      "summary": "2026年汇算清缴截止5月31日卖家之家解读跨境电商企业所得税两种征收方式：查账征收按收入减成本减费用实际利润乘25%计税需完整凭证；核定征收按销售额4%核定应纳税所得额乘25%有效税负仅1%。核定征收三大前提：综试区注册加线上综服平台登记出口加海关9610/9810电商方式申报加出口无票且享增值税免税。叠加小型微利企业优惠可使有效税负低至2.5-5%。",
+      "matched_keywords": ["权威解读", "卖家反馈"]
+    },
+    {
+      "date": "2026-02-01",
+      "source": "知无不言",
+      "title": "跨境税务风向变了：核定征收即将落地",
+      "url": "https://www.wearesellers.com/question/118813",
+      "sentiment_label": "😰焦虑",
+      "summary": "2026年4月《跨境电商企业涉税问题相关口径》传开深圳龙华区率先启动跨境卖家摸排。核心要点：2025年9月30日前业务按2%核定、10-12月按4%核定(临时窗口指导非红头文件)；2026年起查账征收看真实收入成本凭证四流统一；海外凭证获税前扣除认可；赛维模式多店铺按收入占比分摊成本获官方认可；代理出口若无法溯源按4%核定；买单出口彻底终结。分阶段对历史旧账进行低税率补票是难得机会。",
+      "matched_keywords": ["权威解读", "卖家反馈"]
+    },
+    {
+      "date": "2026-01-28",
+      "source": "白鲸出海",
+      "title": "卖家后台数据与亚马逊报送给税局的为什么不一样？",
+      "url": "https://www.baijing.cn/article/54962",
+      "sentiment_label": "💡求助",
+      "summary": "2026年1月15日亚马逊发布《关于2025年第三季度中国卖家税务信息报送常见问题说明》。数据差异原因：亚马逊按订单开始配送当天人民币汇率中间价计算收入、按发货日期(非付款日期)报告交易、收入含运费礼品包装费折扣税费附加费、费用含销售佣金配送FBA广告订阅月费。卖家可通过亚马逊配送货件报告逐月生成比对。海外VAT/消费税含在收入项目中。广告费仅含Sponsored Seller Ads加Amazon Marketing Services Fee不含DSP DVA。",
+      "matched_keywords": ["平台报送", "卖家反馈"]
+    },
+    {
+      "date": "2026-01-25",
+      "source": "大数跨境",
+      "title": "亚马逊Q4数据已报送！收到短信别慌，卖家现在最该做的5件事",
+      "url": "https://www.10100.com/article/126346496",
+      "sentiment_label": "💡求助",
+      "summary": "2026年3月亚马逊依据国务院810号令向中国税务机关报送2025年Q4(10-12月)店铺数据。判定依据是KYC信息(法人身份证/登录IP)与店铺注册地无关，实际控制人属中国税收居民均被报送。监管三阶段：金税四期自动比对数据标记风险名单加下发《税务事项通知书》加拒不整改立案稽查。卖家五步法：7日内下载季度报告加核对数据差异加对比申报记录加准备差异解释材料加评估境外架构实质。",
+      "matched_keywords": ["平台报送", "卖家反馈"]
+    },
+    {
+      "date": "2026-01-10",
+      "source": "知无不言",
+      "title": "个人卖家账号怎么报税？收到亚马逊邮件说Q4数据已发给国内",
+      "url": "https://www.wearesellers.com/question/118062",
+      "sentiment_label": "😰焦虑",
+      "summary": "2026年1月知无不言社区帖子：个人卖家3月份收到亚马逊邮件说2025年Q4数据已发给国内同时收到国内短信要求报税。发帖卖家困惑：只申报Q4收入是否可行、2025/2026年回款均未超过200万但订货全转私账无发票无营业执照完全不知如何处理。典型反映无证照零散个人卖家在PN15新规下面临主体资质、凭证缺失、申报基准、补税压力等多重难题，寻求同规模合规卖家指导。",
+      "matched_keywords": ["卖家反馈"]
+    },
+    {
+      "date": "2025-12-20",
+      "source": "知无不言",
+      "title": "买的亚马逊店铺后续怎么处理报税比较好",
+      "url": "https://www.wearesellers.com/question/113390",
+      "sentiment_label": "💡求助",
+      "summary": "知无不言社区帖子：跨境平台要向中国税务报送卖家数据，买来的亚马逊店铺(实际经营者与注册主体分离)后续报税如何处理。这是PN15合规新规下的典型灰色地带问题——收购店铺、代理运营、授权店铺在实际经营主体与注册法律主体不一致时面临报税风险。主流建议是逐步将这些店铺业务迁移至实际经营者名下合规主体，或确保注册主体独立完成税务申报，否则店铺交易数据对不上注册主体的申报会直接触发稽查。",
+      "matched_keywords": ["卖家反馈"]
+    },
+    {
+      "date": "2025-11-15",
+      "source": "知无不言",
+      "title": "关于季度报税操作，微小卖家这样操作可以吗",
+      "url": "https://www.wearesellers.com/question/111082",
+      "sentiment_label": "💡求助",
+      "summary": "知无不言社区微小卖家(季度回款50万左右)求助合规操作方案：过去一直按低报无票收款进个人账户。现准备三步走：按后台报告库汇总transfer回款数据申报加找能补开发票的工厂开票加开公户为后续采购开票及第三方回款公户做准备。发帖诉求是寻求同等规模卖家验证此方案是否完整、是否有遗漏。反映PN15新规下大量回款较少但渴望合规的小微跨境卖家的实操困惑与试错探索过程。",
+      "matched_keywords": ["卖家反馈"]
+    },
+    {
+      "date": "2025-10-10",
+      "source": "知无不言",
+      "title": "求助财税问题：关于7月开启电商报税，小卖家该如何操作",
+      "url": "https://www.wearesellers.com/question/107293",
+      "sentiment_label": "💡求助",
+      "summary": "知无不言社区小卖家求助：随2025年第三季度(7月起)电商报税制度实施，之前私账收支已切换至公户，担心私账历史支出无法补票抵扣导致Q3回款收入虚高、成本对不上。核心困惑：销售额预计超增值税起征点税负显著上升、亚马逊广告费等平台支出如何开票计入公司成本。发帖诉求是寻求同等规模合规卖家的实操指导排斥财税公司营销式回复。典型反映小微跨境卖家在PN15新规下的历史无票、票据缺失、成本认定三重难题。",
+      "matched_keywords": ["卖家反馈"]
+    }
+  ],
+  "policy_timeline": [
+    {
+      "date": "2025-06-20",
+      "title": "国务院令第810号发布",
+      "type": "milestone",
+      "description": "中国国务院2025年6月13日第61次常务会议通过《互联网平台企业涉税信息报送规定》，国务院令第810号自公布之日起施行，确立境内外互联网平台按季度报送平台内经营者与从业人员身份及收入信息的义务，违规处2-50万元罚款，情节严重责令停业整顿。"
+    },
+    {
+      "date": "2025-06-26",
+      "title": "PN15公告发布",
+      "type": "milestone",
+      "description": "国家税务总局发布2025年第15号公告(PN15实施细则)，明确谁来报/报什么/怎么报/不报怎么办四大维度的具体操作要求，细化平台基本信息、身份信息、收入信息的报送类别、内容、口径、时间节点及渠道。"
+    },
+    {
+      "date": "2025-10-01",
+      "title": "平台报送制度生效",
+      "type": "milestone",
+      "description": "互联网平台企业涉税信息报送制度正式生效，亚马逊于10月13日宣布将于10月31日前完成首次季度报送覆盖2025年7-9月数据，报送身份信息、交易数量、收入、佣金服务费及银行账户详情。"
+    },
+    {
+      "date": "2025-10-31",
+      "title": "亚马逊首次季度报送",
+      "type": "deadline",
+      "description": "亚马逊正式完成首次向中国税务机关报送2025年Q3(7-9月)卖家数据。自此所有中国卖家销售额、费用支出、结算数据按季度同步税务部门。"
+    },
+    {
+      "date": "2025-12-23",
+      "title": "亚马逊MASS邮件推送Q3数据",
+      "type": "notification",
+      "description": "亚马逊通过MASS Email形式将2025年第三季度报送给税务机关的具体数据推送给中国卖家，含身份信息、交易量、收入、佣金服务费等10项数据，报告链接7天有效。卖家发现报告数据与自有账目差异显著。"
+    },
+    {
+      "date": "2026-01-30",
+      "title": "出口退税新规发布（2026年第5号）",
+      "type": "milestone",
+      "description": "国家税务总局发布2026年第5号公告《出口业务增值税和消费税退(免)税管理办法》，自2026年1月1日起施行，整合原2012年第24号规范，重构备案/申报/核销全流程规则。明确退(免)税申报期限为报关次年4月30日前收汇，逾期视同内销征税。"
+    },
+    {
+      "date": "2026-01-31",
+      "title": "深圳无票免税上线",
+      "type": "milestone",
+      "description": "深圳市商务局发布通知，优化后的跨境电商线上综合服务平台《无票免税》登记模块于2026年2月1日正式上线运行。深圳是全国唯一对无票免税政策有明确发文的地区，仅针对深圳注册主体的9610出口模式卖家。"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "跨境电商出口退运税收优惠",
+      "type": "milestone",
+      "description": "财政部/海关总署/税务总局联合发布2026年第16号公告：2026年1月1日至2027年12月31日期间在1210/9610/9710/9810项下申报出口、6个月内原状退运进境的商品(不含食品)免征进口关税和进口环节增值税消费税。"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "亚马逊MASS邮件推送Q4数据",
+      "type": "notification",
+      "description": "亚马逊通过MASS Email形式将2025年第四季度报送给税务机关的具体数据推送给中国卖家，同时深圳、成都、杭州税务局开始对跨境卖家进行一对一电话核查，要求核实销售收入与申报数据差异。"
+    }
+  ],
+  "stats": {
+    "total_articles": 54,
+    "l1_count": 12,
+    "l1_sources": 6,
+    "l2_count": 0,
+    "l2_sources": 0,
+    "l3_count": 42,
+    "l3_sources": 7,
+    "feedback_count": 27,
+    "last_updated": "2026-04-26T12:00:00Z",
+    "highlights_count": 5,
+    "sentiment_distribution": {
+      "😰焦虑": 7,
+      "😡不满": 3,
+      "😐观望": 0,
+      "💡求助": 8,
+      "✅积极": 0,
+      "⚠️恐慌": 9
+    }
+  }
 }

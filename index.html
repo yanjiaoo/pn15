@@ -5,40 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PN15 政策信息聚合器</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .upload-btn { padding:0.8rem 1rem; border:none; background:#fff; font-size:0.9rem; cursor:pointer; transition:all 0.2s; color:#3949ab; font-weight:600; }
-    .upload-btn:hover { background:#f0f0ff; }
-    .upload-modal { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:1000; display:flex; align-items:center; justify-content:center; }
-    .upload-modal-content { background:#fff; border-radius:12px; max-width:600px; width:90%; max-height:80vh; overflow-y:auto; }
-    .upload-modal-header { display:flex; justify-content:space-between; align-items:center; padding:1rem 1.5rem; border-bottom:1px solid #e1e4e8; }
-    .upload-modal-header h3 { margin:0; }
-    .upload-close { font-size:1.5rem; cursor:pointer; color:#888; }
-    .upload-close:hover { color:#333; }
-    .upload-modal-body { padding:1.5rem; }
-    .upload-format-table { width:100%; border-collapse:collapse; font-size:0.85rem; margin:0.8rem 0; }
-    .upload-format-table th { background:#e8eaf6; padding:0.4rem 0.6rem; text-align:left; }
-    .upload-format-table td { padding:0.4rem 0.6rem; border-bottom:1px solid #eee; }
-    .upload-area { display:flex; gap:0.8rem; align-items:center; margin:1rem 0; }
-    .upload-submit-btn { padding:0.5rem 1.2rem; background:linear-gradient(135deg,#3949ab,#5c6bc0); color:#fff; border:none; border-radius:6px; cursor:pointer; font-weight:600; }
-    .upload-note { font-size:0.8rem; color:#888; margin-top:0.8rem; }
-    #upload-status { font-size:0.85rem; color:#333; margin-top:0.5rem; }
-  </style>
 </head>
 <body>
 
-  <!-- ===== Header ===== -->
+  <!-- ===== Header (精简版) ===== -->
   <header class="site-header">
     <div class="header-content">
       <h1>📋 PN15 政策信息聚合器</h1>
-      <p class="subtitle">国务院令第810号 &amp; 国家税务总局2025年第15号公告 — 政策信息与卖家反馈</p>
+      <p class="subtitle">聚合国务院令810号 &amp; 国税总局2025年第15号公告相关政策、解读与卖家反馈，帮助你快速掌握税务合规动态</p>
       <div class="stats-cards">
         <div class="stat-card">
           <span class="stat-value" id="stat-total">--</span>
           <span class="stat-label">总文章数</span>
         </div>
         <div class="stat-card">
-          <span class="stat-value" id="stat-sources">--</span>
-          <span class="stat-label">信息源数</span>
+          <div class="stat-sources-breakdown" id="stat-sources-breakdown">
+            <div class="sb-row"><span class="sb-level level-l1">L1</span><span class="sb-text" id="sb-l1">-- 家 官方政府</span></div>
+            <div class="sb-row"><span class="sb-level level-l2">L2</span><span class="sb-text" id="sb-l2">-- 家 专业机构</span></div>
+            <div class="sb-row"><span class="sb-level level-l3">L3</span><span class="sb-text" id="sb-l3">-- 家 行业媒体</span></div>
+          </div>
+          <span class="stat-label">信息源分布</span>
         </div>
         <div class="stat-card">
           <span class="stat-value" id="stat-updated">--</span>
@@ -57,7 +43,7 @@
     <button class="upload-btn" id="upload-btn" title="手动上传文章">📤 上传</button>
   </nav>
 
-  <!-- ===== Compact Timeline Bar (always visible) ===== -->
+  <!-- ===== Compact Timeline Bar ===== -->
   <div class="compact-timeline-bar" id="compact-timeline"></div>
 
   <!-- ===== Section 1: 最新资讯 ===== -->
@@ -80,6 +66,7 @@
       </div>
     </div>
     <div class="highlights-area" id="highlights-area"></div>
+    <div class="news-toc" id="news-toc"></div>
     <div class="timeline-list" id="timeline-list">
       <div class="loading">加载中...</div>
     </div>
@@ -117,7 +104,7 @@
     </div>
   </section>
 
-  <!-- Upload Modal -->
+  <!-- ===== Upload Modal ===== -->
   <div id="upload-modal" class="upload-modal" style="display:none;">
     <div class="upload-modal-content">
       <div class="upload-modal-header">
@@ -125,43 +112,66 @@
         <span class="upload-close" id="upload-close">&times;</span>
       </div>
       <div class="upload-modal-body">
-        <p style="margin-bottom:12px;">只需输入 <strong>文章URL</strong>，系统会自动识别来源、层级等信息。</p>
-        
-        <div style="margin-bottom:12px;">
-          <label style="display:block;margin-bottom:4px;font-weight:600;font-size:13px;">文章URL <span style="color:#c62828;">*</span></label>
-          <input type="url" id="manual-url" placeholder="https://www.cifnews.com/article/176203" style="width:100%;padding:8px 10px;border:1px solid #d0d7de;border-radius:6px;font-size:13px;" />
+        <!-- 选项卡 -->
+        <div class="upload-tabs">
+          <button class="upload-tab active" data-tab="single">📝 单个添加</button>
+          <button class="upload-tab" data-tab="bulk">📋 批量上传 CSV</button>
         </div>
-        
-        <div style="margin-bottom:12px;">
-          <label style="display:block;margin-bottom:4px;font-weight:600;font-size:13px;">归类到板块（可选）</label>
-          <select id="manual-section" style="width:100%;padding:8px 10px;border:1px solid #d0d7de;border-radius:6px;font-size:13px;">
-            <option value="auto">🤖 自动判断（推荐）</option>
-            <option value="news">📰 仅最新资讯</option>
-            <option value="feedback">🗣️ 仅卖家反馈</option>
-            <option value="both">📰🗣️ 同时加入两个板块</option>
-          </select>
+
+        <!-- 单个添加 -->
+        <div id="upload-pane-single" class="upload-pane active">
+          <p class="upload-desc">只需输入 <strong>文章URL</strong>，系统会自动识别来源、层级等信息。</p>
+          <div class="form-row">
+            <label>文章URL <span class="required">*</span></label>
+            <input type="url" id="manual-url" placeholder="https://www.cifnews.com/article/176203" />
+          </div>
+          <div class="form-row">
+            <label>归类到板块（可选）</label>
+            <select id="manual-section">
+              <option value="auto">🤖 自动判断（推荐）</option>
+              <option value="news">📰 仅最新资讯</option>
+              <option value="feedback">🗣️ 仅卖家反馈</option>
+              <option value="both">📰🗣️ 同时加入两个板块</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label>情绪标签（可选，用于卖家反馈）</label>
+            <select id="manual-sentiment">
+              <option value="">🤖 自动判断</option>
+              <option value="😰焦虑">😰 焦虑</option>
+              <option value="😡不满">😡 不满</option>
+              <option value="😐观望">😐 观望</option>
+              <option value="💡求助">💡 求助</option>
+              <option value="✅积极">✅ 积极</option>
+              <option value="⚠️恐慌">⚠️ 恐慌</option>
+            </select>
+          </div>
+          <button class="upload-submit-btn" id="upload-submit">➕ 添加文章</button>
         </div>
-        
-        <div style="margin-bottom:16px;">
-          <label style="display:block;margin-bottom:4px;font-weight:600;font-size:13px;">情绪标签（可选，用于卖家反馈）</label>
-          <select id="manual-sentiment" style="width:100%;padding:8px 10px;border:1px solid #d0d7de;border-radius:6px;font-size:13px;">
-            <option value="">🤖 自动判断</option>
-            <option value="😰焦虑">😰 焦虑</option>
-            <option value="😡不满">😡 不满</option>
-            <option value="😐观望">😐 观望</option>
-            <option value="💡求助">💡 求助</option>
-            <option value="✅积极">✅ 积极</option>
-            <option value="⚠️恐慌">⚠️ 恐慌</option>
-          </select>
+
+        <!-- 批量上传 -->
+        <div id="upload-pane-bulk" class="upload-pane">
+          <p class="upload-desc">上传 CSV 文件（UTF-8 编码），每行一个 URL，系统会自动识别其他字段并批量导入。</p>
+          <div class="form-row">
+            <label>CSV 文件</label>
+            <input type="file" id="bulk-file" accept=".csv,.txt" />
+          </div>
+          <div class="bulk-hint">
+            <strong>📋 CSV 格式示例：</strong>
+            <pre>url
+https://www.cifnews.com/article/176203
+https://www.amz123.com/t/57GGlioL
+https://mjzj.com/article/fjt751426u4g</pre>
+            <small>第一行可以是表头「url」也可以直接是 URL。每行一个 URL，其他字段自动识别。</small>
+          </div>
+          <button class="upload-submit-btn" id="bulk-submit">📤 批量导入</button>
         </div>
-        
-        <button class="upload-submit-btn" id="upload-submit" style="width:100%;padding:10px;font-size:14px;">➕ 添加文章</button>
-        
-        <div id="upload-status" style="margin-top:12px;"></div>
-        
-        <div style="margin-top:16px;padding:10px;background:#f0f4f8;border-radius:6px;font-size:12px;color:#555;">
+
+        <div id="upload-status"></div>
+
+        <div class="upload-footer-note">
           <strong>💡 说明：</strong>
-          <ul style="margin:6px 0 0 16px;padding:0;line-height:1.6;">
+          <ul>
             <li>添加后可预览效果</li>
             <li>需手动下载 data.json 并上传到 GitHub 保存</li>
             <li>论坛/社区类链接（知无不言、AMZ123等）会自动进入卖家反馈</li>
