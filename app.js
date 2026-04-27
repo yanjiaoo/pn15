@@ -8,7 +8,54 @@
   var currentSearch = '';
   var currentSentiment = 'all';
   var currentFbTimeFilter = 'all';
+  var currentKeyword = null; // 当前关键词云筛选
   var REFRESH_INTERVAL = 5 * 60 * 1000; // 5 minutes
+
+  // ========== 卖家反馈声音词典（38 词，4 类情绪/槽点） ==========
+  var FEEDBACK_KEYWORDS = [
+    // 🔥 愤怒/不满 (angry) — 9
+    { word: '约谈', cat: 'angry' },
+    { word: '催命符', cat: 'angry' },
+    { word: '炸弹', cat: 'angry' },
+    { word: '两边都想割', cat: 'angry' },
+    { word: '底裤被扒', cat: 'angry' },
+    { word: '动真格', cat: 'angry' },
+    { word: '群发短信', cat: 'angry' },
+    { word: '裸奔', cat: 'angry' },
+    { word: '降维打击', cat: 'angry' },
+    // 😰 焦虑/恐慌 (panic) — 10
+    { word: '第四轮', cat: 'panic' },
+    { word: '补税', cat: 'panic' },
+    { word: '稽查', cat: 'panic' },
+    { word: '慌了', cat: 'panic' },
+    { word: '焦虑', cat: 'panic' },
+    { word: '麻了', cat: 'panic' },
+    { word: '疯了', cat: 'panic' },
+    { word: '滞纳金', cat: 'panic' },
+    { word: '倒闭', cat: 'panic' },
+    { word: '雷声大', cat: 'panic' },
+    // 💡 求助/困惑 (help) — 10
+    { word: '怎么办', cat: 'help' },
+    { word: '不知道', cat: 'help' },
+    { word: '对不上', cat: 'help' },
+    { word: '差额', cat: 'help' },
+    { word: '迷茫', cat: 'help' },
+    { word: '求指导', cat: 'help' },
+    { word: '求助', cat: 'help' },
+    { word: '怎么算', cat: 'help' },
+    { word: '对得上', cat: 'help' },
+    { word: '没发票', cat: 'help' },
+    // ⚠️ 具体槽点 (complaint) — 9
+    { word: '虚高', cat: 'complaint' },
+    { word: '数据差异', cat: 'complaint' },
+    { word: '零申报', cat: 'complaint' },
+    { word: '私户', cat: 'complaint' },
+    { word: '买单出口', cat: 'complaint' },
+    { word: '回款', cat: 'complaint' },
+    { word: '视同内销', cat: 'complaint' },
+    { word: '平台报送', cat: 'complaint' },
+    { word: '多30%', cat: 'complaint' }
+  ];
 
   // ========== switchBoard ==========
 
@@ -257,18 +304,107 @@
       hotArea.innerHTML = hotHtml;
     }
 
+    // 卖家反馈声音词云
+    renderKeywordCloud();
+
     var listEl = document.getElementById('feedback-list');
     if (!listEl) return;
 
     var items = filterBySentiment(filterByTime(allData.feedback || [], currentFbTimeFilter), currentSentiment);
+
+    // 关键词筛选
+    if (currentKeyword) {
+      items = items.filter(function (item) {
+        var text = (item.title || '') + ' ' + (item.summary || '');
+        return text.indexOf(currentKeyword) !== -1;
+      });
+    }
+
     if (items.length === 0) {
-      listEl.innerHTML = '<div class="empty-state">暂无匹配反馈</div>';
+      listEl.innerHTML = renderKeywordFilterBanner() + '<div class="empty-state">暂无匹配反馈</div>';
       return;
     }
     items.sort(function (a, b) { return (b.date || '').localeCompare(a.date || ''); });
-    var html = '';
+    var html = renderKeywordFilterBanner();
     items.forEach(function (item) { html += createFeedbackCard(item); });
     listEl.innerHTML = html;
+  }
+
+  function renderKeywordFilterBanner() {
+    if (!currentKeyword) return '';
+    return '<div class="kw-filter-banner">' +
+      '<span class="kw-filter-label">\uD83D\uDD0D 当前筛选：</span>' +
+      '<span class="kw-filter-word">' + escapeHtml(currentKeyword) + '</span>' +
+      '<button class="kw-filter-clear" id="kw-filter-clear">\u00D7 清除</button>' +
+      '</div>';
+  }
+
+  // ========== 卖家反馈声音词云 ==========
+
+  function renderKeywordCloud() {
+    var container = document.getElementById('keyword-cloud');
+    if (!container || !allData) return;
+
+    // 合并所有 feedback 的 title + summary 作为语料
+    var corpus = (allData.feedback || []).map(function (f) {
+      return (f.title || '') + '\u3000' + (f.summary || '');
+    }).join('\u3000');
+
+    // 统计每个词在语料中的出现次数
+    var wordCounts = FEEDBACK_KEYWORDS.map(function (item) {
+      var count = 0;
+      var idx = 0;
+      while ((idx = corpus.indexOf(item.word, idx)) !== -1) {
+        count++;
+        idx += item.word.length;
+      }
+      return { word: item.word, cat: item.cat, count: count };
+    }).filter(function (x) { return x.count > 0; });
+
+    if (wordCounts.length === 0) {
+      container.innerHTML = '';
+      return;
+    }
+
+    // 求最大最小频次，用于字号线性映射 12px - 36px
+    var maxCount = Math.max.apply(null, wordCounts.map(function (x) { return x.count; }));
+    var minCount = Math.min.apply(null, wordCounts.map(function (x) { return x.count; }));
+    var fontMin = 12, fontMax = 36;
+
+    // 按频次倒序，保证高频词尽量靠前/居中
+    wordCounts.sort(function (a, b) { return b.count - a.count; });
+
+    var html = '<h3 class="area-title">\uD83D\uDDE3\uFE0F 卖家反馈声音</h3>';
+    html += '<div class="kw-cloud-legend">';
+    html += '<span class="kw-legend-item"><span class="kw-swatch cat-angry"></span>愤怒/不满</span>';
+    html += '<span class="kw-legend-item"><span class="kw-swatch cat-panic"></span>焦虑/恐慌</span>';
+    html += '<span class="kw-legend-item"><span class="kw-swatch cat-help"></span>求助/困惑</span>';
+    html += '<span class="kw-legend-item"><span class="kw-swatch cat-complaint"></span>具体槽点</span>';
+    html += '</div>';
+    html += '<div class="kw-cloud">';
+    wordCounts.forEach(function (x) {
+      var ratio = maxCount === minCount ? 1 : (x.count - minCount) / (maxCount - minCount);
+      var fontSize = fontMin + ratio * (fontMax - fontMin);
+      var active = (currentKeyword === x.word) ? ' kw-active' : '';
+      html += '<span class="kw-item cat-' + x.cat + active + '" ' +
+        'data-word="' + escapeHtml(x.word) + '" ' +
+        'style="font-size:' + fontSize.toFixed(1) + 'px;" ' +
+        'title="' + escapeHtml(x.word) + ' — 出现 ' + x.count + ' 次">' +
+        escapeHtml(x.word) + '<sup class="kw-count">' + x.count + '</sup>' +
+        '</span>';
+    });
+    html += '</div>';
+    container.innerHTML = html;
+
+    // 绑定点击事件
+    container.querySelectorAll('.kw-item').forEach(function (el) {
+      el.addEventListener('click', function () {
+        var w = el.getAttribute('data-word');
+        // 再次点击同一词则取消筛选
+        currentKeyword = (currentKeyword === w) ? null : w;
+        renderFeedback();
+      });
+    });
   }
 
   function createFeedbackCard(item) {
@@ -729,6 +865,17 @@
     if (singleBtn) singleBtn.addEventListener('click', handleSingleUpload);
     var bulkBtn = document.getElementById('bulk-submit');
     if (bulkBtn) bulkBtn.addEventListener('click', handleBulkUpload);
+
+    // 关键词筛选清除按钮（事件委托）
+    var feedbackList = document.getElementById('feedback-list');
+    if (feedbackList) {
+      feedbackList.addEventListener('click', function (e) {
+        if (e.target && e.target.id === 'kw-filter-clear') {
+          currentKeyword = null;
+          renderFeedback();
+        }
+      });
+    }
   }
 
   // ========== Init ==========

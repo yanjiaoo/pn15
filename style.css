@@ -791,3 +791,140 @@ a { color: inherit; text-decoration: none; }
   .toc-summary { min-width: 100%; order: 2; }
   .toc-source, .toc-tags { font-size: 0.68rem; }
 }
+
+/* ---- 卖家反馈声音词云 ---- */
+.keyword-cloud-area {
+  margin-bottom: 1.2rem;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem 1.2rem 1.2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.kw-cloud-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.kw-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.kw-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.kw-swatch.cat-angry { background: #c62828; }
+.kw-swatch.cat-panic { background: #e65100; }
+.kw-swatch.cat-help { background: #455a64; }
+.kw-swatch.cat-complaint { background: #8d6e63; }
+
+.kw-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.9rem;
+  align-items: baseline;
+  justify-content: center;
+  padding: 0.8rem 0.3rem 0.2rem;
+  line-height: 1.6;
+  min-height: 120px;
+}
+
+.kw-item {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  transition: all 0.15s;
+  display: inline-flex;
+  align-items: baseline;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.kw-item:hover {
+  background: #f0f4f8;
+  transform: scale(1.08);
+}
+
+.kw-item.kw-active {
+  background: #3949ab;
+  color: #fff !important;
+  box-shadow: 0 2px 6px rgba(57, 73, 171, 0.3);
+}
+
+.kw-item.kw-active .kw-count { color: #fff; opacity: 0.85; }
+
+.kw-item.cat-angry { color: #c62828; }
+.kw-item.cat-panic { color: #e65100; }
+.kw-item.cat-help { color: #455a64; }
+.kw-item.cat-complaint { color: #8d6e63; }
+
+.kw-count {
+  font-size: 0.6em;
+  font-weight: 500;
+  margin-left: 2px;
+  color: #999;
+  vertical-align: super;
+}
+
+/* ---- 关键词筛选提示横幅 ---- */
+.kw-filter-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0.9rem;
+  background: linear-gradient(135deg, #e8eaf6 0%, #f3e5f5 100%);
+  border: 1px solid #c5cae9;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+  font-size: 0.85rem;
+}
+
+.kw-filter-label {
+  color: #555;
+  font-weight: 500;
+}
+
+.kw-filter-word {
+  font-weight: 700;
+  color: #1a237e;
+  padding: 0.1rem 0.5rem;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #3949ab;
+}
+
+.kw-filter-clear {
+  margin-left: auto;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid #d0d7de;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #666;
+  transition: all 0.15s;
+}
+
+.kw-filter-clear:hover {
+  background: #ffebee;
+  border-color: #c62828;
+  color: #c62828;
+}
+
+/* 移动端词云字号略降档 */
+@media (max-width: 640px) {
+  .kw-cloud { gap: 0.4rem 0.6rem; padding: 0.6rem 0.1rem 0.2rem; }
+  .kw-item { padding: 0.08rem 0.25rem; }
+  .kw-cloud-legend { font-size: 0.7rem; gap: 0.6rem; }
+}
